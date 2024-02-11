@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
-import "category"Page from "./"category"Page";
+import CategoryPage from "./CategoryPage";
 import Navbar from "./Navbar";
 import InfoGame from "./InfoGame";
 import { Container } from "react-bootstrap";
@@ -18,7 +18,6 @@ function AppRouter() {
             path="/categorylist"
             element={<CategoryList></CategoryList>}
           ></Route>
-
           <Route path="/category/:category" element={<CategoryPage />}></Route>
         </Routes>
       </Container>
