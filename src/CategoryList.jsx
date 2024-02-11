@@ -1,20 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import CategoryCard from "./CategoryCard";
+import { Row, Col } from "react-bootstrap";
 
 function CategoryList() {
-  let algo = "algo";
   return (
-    <div>
-      CategoryList
-      <Link to={`/category/${algo}`}>
-        <div>
-          <h3>{algo}</h3>
-          <CategoryCard></CategoryCard>
-        </div>
-        <h2>{algo}</h2>
-      </Link>
-    </div>
+    <Row className="row-cols-2 row-cols-md-3">
+      <Col className="bg-warning d-flex justify-content-center py-3">
+        <CategoryCard category={"ciencia"}></CategoryCard>
+      </Col>
+      <Col className="bg-warning d-flex justify-content-center py-3">
+        <CategoryCard category={"espetaculos"}></CategoryCard>
+      </Col>
+      <Col className="bg-warning d-flex justify-content-center py-3">
+        <CategoryCard category={"historioa-y-geografia"}></CategoryCard>
+      </Col>
+      <Col className="bg-warning d-flex justify-content-center py-3">
+        <CategoryCard category={"deportes"}></CategoryCard>
+      </Col>
+      <Col className="bg-warning d-flex justify-content-center py-3">
+        <CategoryCard category={"videojuegos-comics-y-anime"}></CategoryCard>
+      </Col>
+      <Col className="bg-warning d-flex justify-content-center py-3">
+        <CategoryCard category={"naturaleza"}></CategoryCard>
+      </Col>
+    </Row>
   );
 }
 

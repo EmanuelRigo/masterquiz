@@ -4,6 +4,7 @@ import CategoryPage from "./CategoryPage";
 import Navbar from "./Navbar";
 import InfoGame from "./InfoGame";
 import { Container } from "react-bootstrap";
+import CategoryList from "./CategoryList";
 
 function AppRouter() {
   return (
@@ -14,9 +15,11 @@ function AppRouter() {
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/infogame" element={<InfoGame></InfoGame>}></Route>
           <Route
-            path="/categorypage/:category"
-            element={<CategoryPage />}
+            path="/categorylist"
+            element={<CategoryList></CategoryList>}
           ></Route>
+
+          <Route path="/category/:category" element={<CategoryPage />}></Route>
         </Routes>
       </Container>
     </>

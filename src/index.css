@@ -13,6 +13,15 @@
   text-decoration: none;
 }
 
+.categorycard {
+  height: 340px;
+  width: 340px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 992px) {
   .navbar__title {
     font-size: 3rem;
@@ -22,5 +31,11 @@
 @media screen and (max-width: 576px) {
   .navbar__title {
     font-size: 2rem;
+  }
+
+  .categorycard {
+    height: 150px;
+    width: 150px;
+    background-color: red;
   }
 }
