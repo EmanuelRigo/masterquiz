@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CategoryCard from "./CategoryCard";
+import "category"Card from "./"category"Card";
 
-function CategoryList() {
+function "category"List() {
   let algo = "algo";
   return (
     <div>
-      CategoryList
-      <Link to={`/category/${algo}`}>
+      "category"List
+      <Link to={`/"category"/${algo}`}>
         <div>
           <h3>{algo}</h3>
-          <CategoryCard></CategoryCard>
+          <"category"Card></"category"Card>
         </div>
         <h2>{algo}</h2>
       </Link>
@@ -18,4 +18,4 @@ function CategoryList() {
   );
 }
 
-export default CategoryList;
+export default "category"List;

@@ -1,6 +1,6 @@
 import React from "react";
-import CategoryPage from "./CategoryPage";
-import CategoryList from "./CategoryList";
+import "category"Page from "./"category"Page";
+import "category"List from "./"category"List";
 import { Link } from "react-router-dom";
 import { Button, Row, Col } from "react-bootstrap";
 

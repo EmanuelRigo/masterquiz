@@ -1,7 +1,7 @@
 import React from "react";
 
-function CategoryPage() {
-  return <div>CategoryPage</div>;
+function "category"Page() {
+  return <div>"category"Page</div>;
 }
 
-export default CategoryPage;
+export default "category"Page;
