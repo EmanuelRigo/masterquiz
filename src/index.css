@@ -16,7 +16,7 @@
 .categorycard {
   height: 340px;
   width: 340px;
-  background-color: red;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +36,5 @@
   .categorycard {
     height: 150px;
     width: 150px;
-    background-color: red;
   }
 }

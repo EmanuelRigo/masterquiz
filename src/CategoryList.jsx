@@ -1,27 +1,49 @@
 import React from "react";
 import CategoryCard from "./CategoryCard";
 import { Row, Col } from "react-bootstrap";
+import { TiLeaf } from "react-icons/ti";
+import { MdOutlineScience } from "react-icons/md";
+import { TbMovie } from "react-icons/tb";
+import { BiWorld } from "react-icons/bi";
+import { MdOutlineSportsFootball } from "react-icons/md";
+import { IoGameControllerOutline } from "react-icons/io5";
 
 function CategoryList() {
   return (
     <Row className="row-cols-2 row-cols-md-3">
-      <Col className="bg-warning d-flex justify-content-center py-3">
-        <CategoryCard category={"ciencia"}></CategoryCard>
+      <Col className="d-flex justify-content-center py-3">
+        <CategoryCard
+          className="btn btn-warning"
+          icon={<MdOutlineScience />}
+          category={"ciencia"}
+        ></CategoryCard>
       </Col>
-      <Col className="bg-warning d-flex justify-content-center py-3">
-        <CategoryCard category={"espetaculos"}></CategoryCard>
+      <Col className="d-flex justify-content-center py-3">
+        <CategoryCard
+          icon={<TbMovie />}
+          category={"espetaculos"}
+        ></CategoryCard>
       </Col>
-      <Col className="bg-warning d-flex justify-content-center py-3">
-        <CategoryCard category={"historioa-y-geografia"}></CategoryCard>
+      <Col className="d-flex justify-content-center py-3">
+        <CategoryCard
+          icon={<BiWorld />}
+          category={"historioa-y-geografia"}
+        ></CategoryCard>
       </Col>
-      <Col className="bg-warning d-flex justify-content-center py-3">
-        <CategoryCard category={"deportes"}></CategoryCard>
+      <Col className="d-flex justify-content-center py-3">
+        <CategoryCard
+          icon={<MdOutlineSportsFootball />}
+          category={"deportes"}
+        ></CategoryCard>
       </Col>
-      <Col className="bg-warning d-flex justify-content-center py-3">
-        <CategoryCard category={"videojuegos-comics-y-anime"}></CategoryCard>
+      <Col className="d-flex justify-content-center py-3">
+        <CategoryCard
+          icon={<IoGameControllerOutline />}
+          category={"videojuegos-comics-y-anime"}
+        ></CategoryCard>
       </Col>
-      <Col className="bg-warning d-flex justify-content-center py-3">
-        <CategoryCard category={"naturaleza"}></CategoryCard>
+      <Col className="d-flex justify-content-center py-3">
+        <CategoryCard icon={<TiLeaf />} category={"naturaleza"}></CategoryCard>
       </Col>
     </Row>
   );
