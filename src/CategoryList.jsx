@@ -27,4 +27,4 @@ function CategoryList() {
   );
 }
 
-export default CategoryList;
+export default "category"List;

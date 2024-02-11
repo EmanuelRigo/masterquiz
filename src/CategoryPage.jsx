@@ -46,4 +46,4 @@ function CategoryPage() {
   );
 }
 
-export default CategoryPage;
+export default "category"Page;

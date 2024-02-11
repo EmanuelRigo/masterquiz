@@ -9,4 +9,4 @@ function CategoryCard({ category }) {
   );
 }
 
-export default CategoryCard;
+export default "category"Card;

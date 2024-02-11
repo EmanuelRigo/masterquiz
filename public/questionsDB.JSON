@@ -1,0 +1,483 @@
+[
+  {
+    "id": 1,
+    "category": "Historia y Geografía",
+    "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
+    "correct_answer": "1919",
+    "incorrect_answers": ["1918", "1920", "1921"]
+  },
+  {
+    "id": 2,
+    "category": "Historia y Geografía",
+    "question": "¿Cuál fue la primera civilización en la historia conocida?",
+    "correct_answer": "Civilización sumeria",
+    "incorrect_answers": [
+      "Civilización egipcia",
+      "Civilización china",
+      "Civilización del valle del Indo"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Historia y Geografía",
+    "question": "¿Dónde se encuentra la Gran Muralla?",
+    "correct_answer": "China",
+    "incorrect_answers": ["Japón", "Corea del Sur", "India"]
+  },
+  {
+    "id": 4,
+    "category": "Historia y Geografía",
+    "question": "¿Cuál fue el primer país en enviar un ser humano al espacio?",
+    "correct_answer": "Unión Soviética",
+    "incorrect_answers": ["Estados Unidos", "China", "India"]
+  },
+  {
+    "id": 5,
+    "category": "Historia y Geografía",
+    "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
+    "correct_answer": "Perú",
+    "incorrect_answers": ["Ecuador", "Bolivia", "Colombia"]
+  },
+  {
+    "id": 6,
+    "category": "Historia y Geografía",
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "correct_answer": "George Washington",
+    "incorrect_answers": ["Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+  },
+  {
+    "id": 7,
+    "category": "Historia y Geografía",
+    "question": "¿Cuál fue la capital del Imperio Romano?",
+    "correct_answer": "Roma",
+    "incorrect_answers": ["Atenas", "Alejandría", "Constantinopla"]
+  },
+  {
+    "id": 8,
+    "category": "Historia y Geografía",
+    "question": "¿En qué continente se encuentra el río Nilo?",
+    "correct_answer": "África",
+    "incorrect_answers": ["Asia", "Europa", "América del Sur"]
+  },
+  {
+    "id": 9,
+    "category": "Historia y Geografía",
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "correct_answer": "Océano Pacífico",
+    "incorrect_answers": ["Océano Atlántico", "Océano Índico", "Océano Ártico"]
+  },
+  {
+    "id": 10,
+    "category": "Historia y Geografía",
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "correct_answer": "Monte Everest",
+    "incorrect_answers": [
+      "Monte Kilimanjaro",
+      "Monte McKinley",
+      "Monte Aconcagua"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Ciencia",
+    "question": "¿Qué fenómeno natural es responsable de la formación de un arcoíris?",
+    "correct_answer": "Reflexión y refracción de la luz en gotas de lluvia",
+    "incorrect_answers": [
+      "Actividad volcánica",
+      "Acción del viento en el agua",
+      "Interacción de partículas en la atmósfera"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Ciencia",
+    "question": "¿Cuál es la unidad básica de la estructura de la materia?",
+    "correct_answer": "Átomo",
+    "incorrect_answers": ["Molécula", "Célula", "Partícula elemental"]
+  },
+  {
+    "id": 13,
+    "category": "Ciencia",
+    "question": "¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía química?",
+    "correct_answer": "Fotosíntesis",
+    "incorrect_answers": ["Respiración celular", "Transpiración", "Digestión"]
+  },
+  {
+    "id": 14,
+    "category": "Ciencia",
+    "question": "¿Qué ley de la física establece que la energía no puede ser creada ni destruida, solo transformada de una forma a otra?",
+    "correct_answer": "Primera ley de la termodinámica",
+    "incorrect_answers": [
+      "Ley de la gravedad",
+      "Ley de Newton",
+      "Ley de la conservación del momento"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Ciencia",
+    "question": "¿Cuál es el proceso mediante el cual se produce la fusión nuclear en el núcleo del Sol?",
+    "correct_answer": "Reacción de fusión de hidrógeno",
+    "incorrect_answers": [
+      "Reacción de fisión de uranio",
+      "Reacción de combustión",
+      "Reacción de síntesis"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Ciencia",
+    "question": "¿Cuál es la ley de la física que describe la atracción entre dos cuerpos debido a su masa?",
+    "correct_answer": "Ley de gravitación universal",
+    "incorrect_answers": [
+      "Ley de la conservación de la energía",
+      "Ley de la acción y la reacción",
+      "Ley de Coulomb"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Ciencia",
+    "question": "¿Cuál es el órgano del sistema respiratorio donde ocurre el intercambio gaseoso entre el oxígeno y el dióxido de carbono?",
+    "correct_answer": "Pulmones",
+    "incorrect_answers": ["Tráquea", "Faringe", "Bronquios"]
+  },
+  {
+    "id": 18,
+    "category": "Ciencia",
+    "question": "¿Cuál es el proceso mediante el cual se transforma el vapor de agua en agua líquida?",
+    "correct_answer": "Condensación",
+    "incorrect_answers": ["Evaporación", "Sublimación", "Solidificación"]
+  },
+  {
+    "id": 19,
+    "category": "ciencia",
+    "question": "¿Cuál es el componente principal de la atmósfera terrestre?",
+    "correct_answer": "Nitrógeno",
+    "incorrect_answers": ["Oxígeno", "Dióxido de carbono", "Argón"]
+  },
+  {
+    "id": 20,
+    "category": "ciencia",
+    "question": "¿Qué tipo de energía es la que posee un objeto debido a su movimiento?",
+    "correct_answer": "Energía cinética",
+    "incorrect_answers": [
+      "Energía potencial",
+      "Energía térmica",
+      "Energía electromagnética"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "espectaculo",
+    "question": "¿En qué película de Christopher Nolan aparece el personaje llamado 'Cobb'?",
+    "correct_answer": "Inception",
+    "incorrect_answers": ["Interstellar", "The Prestige", "Memento"]
+  },
+  {
+    "id": 22,
+    "category": "espectaculo",
+    "question": "¿Quién interpreta a Walter White en la serie de televisión 'Breaking Bad'?",
+    "correct_answer": "Bryan Cranston",
+    "incorrect_answers": ["Aaron Paul", "Bob Odenkirk", "Jonathan Banks"]
+  },
+  {
+    "id": 23,
+    "category": "espectaculo",
+    "question": "¿Quién fue el vocalista principal de la banda Queen?",
+    "correct_answer": "Freddie Mercury",
+    "incorrect_answers": ["David Bowie", "Elton John", "Mick Jagger"]
+  },
+  {
+    "id": 24,
+    "category": "espectaculo",
+    "question": "¿En qué año se estrenó la primera película de la saga 'Star Wars'?",
+    "correct_answer": "1977",
+    "incorrect_answers": ["1980", "1979", "1975"]
+  },
+  {
+    "id": 25,
+    "category": "espectaculo",
+    "question": "¿Cuál fue el primer álbum de estudio lanzado por The Beatles?",
+    "correct_answer": "Please Please Me",
+    "incorrect_answers": [
+      "Abbey Road",
+      "Sgt. Pepper's Lonely Hearts Club Band",
+      "Rubber Soul"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'The Shawshank Redemption'?",
+    "correct_answer": "Frank Darabont",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Martin Scorsese"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpretó a Jack Dawson en la película 'Titanic'?",
+    "correct_answer": "Leonardo DiCaprio",
+    "incorrect_answers": ["Tom Hanks", "Brad Pitt", "Matt Damon"]
+  },
+  {
+    "id": 28,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'The Dark Knight'?",
+    "correct_answer": "Christopher Nolan",
+    "incorrect_answers": ["Tim Burton", "Zack Snyder", "Joss Whedon"]
+  },
+  {
+    "id": 29,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'The Godfather'?",
+    "correct_answer": "Francis Ford Coppola",
+    "incorrect_answers": [
+      "Martin Scorsese",
+      "Alfred Hitchcock",
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del guitarrista principal de la banda Rolling Stones?",
+    "correct_answer": "Keith Richards",
+    "incorrect_answers": ["Mick Jagger", "Ronnie Wood", "Charlie Watts"]
+  },
+  {
+    "id": 31,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más grande del mundo?",
+    "correct_answer": "La ballena azul",
+    "incorrect_answers": ["Elefante africano", "Girafa", "Tiburón ballena"]
+  },
+  {
+    "id": 32,
+    "category": "naturaleza",
+    "question": "¿Cuál es la montaña más alta fuera del sistema solar?",
+    "correct_answer": "El Monte Olimpo en Marte",
+    "incorrect_answers": [
+      "El Monte Everest en la Tierra",
+      "El Monte Kilimanjaro en la Tierra",
+      "El Monte Mauna Kea en Hawái"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "naturaleza",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "correct_answer": "El río Amazonas",
+    "incorrect_answers": ["El río Nilo", "El río Yangtsé", "El río Mississippi"]
+  },
+  {
+    "id": 34,
+    "category": "naturaleza",
+    "question": "¿Cuál es la flor más grande del mundo?",
+    "correct_answer": "La flor de la Rafflesia",
+    "incorrect_answers": ["El girasol", "La orquídea", "La rosa"]
+  },
+  {
+    "id": 35,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido como el 'rey de la selva'?",
+    "correct_answer": "El león",
+    "incorrect_answers": ["El tigre", "El oso", "La pantera"]
+  },
+  {
+    "id": 36,
+    "category": "naturaleza",
+    "question": "¿Qué tipo de animal es el ornitorrinco?",
+    "correct_answer": "Un mamífero monotremado",
+    "incorrect_answers": ["Un reptil", "Un anfibio", "Un marsupial"]
+  },
+  {
+    "id": 37,
+    "category": "naturaleza",
+    "question": "¿Qué porcentaje de la Tierra está cubierto por agua?",
+    "correct_answer": "Aproximadamente el 71%",
+    "incorrect_answers": [
+      "Aproximadamente el 50%",
+      "Aproximadamente el 85%",
+      "Aproximadamente el 30%"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más rápido del mundo?",
+    "correct_answer": "El guepardo",
+    "incorrect_answers": ["El halcón peregrino", "El avestruz", "El leopardo"]
+  },
+  {
+    "id": 39,
+    "category": "naturaleza",
+    "question": "¿Qué es el nombre común de la especie de árbol 'Sequoia sempervirens'?",
+    "correct_answer": "Secuoya roja",
+    "incorrect_answers": ["Pino", "Cedro", "Olivo"]
+  },
+  {
+    "id": 40,
+    "category": "naturaleza",
+    "question": "¿Qué ave es conocida por migrar largas distancias cada año?",
+    "correct_answer": "El charrán ártico",
+    "incorrect_answers": ["El cuervo", "El pingüino emperador", "El pato"]
+  },
+  {
+    "id": 41,
+    "category": "videos juegos, comics y anime",
+    "question": "¿Cuál es el nombre del personaje principal de la serie de videojuegos 'The Legend of Zelda'?",
+    "correct_answer": "Link",
+    "incorrect_answers": ["Zelda", "Ganondorf", "Epona"]
+  },
+  {
+    "id": 42,
+    "category": "videos juegos, comics y anime",
+    "question": "¿Quién es el creador del cómic 'Spider-Man'?",
+    "correct_answer": "Stan Lee",
+    "incorrect_answers": ["Jack Kirby", "Steve Ditko", "Bob Kane"]
+  },
+  {
+    "id": 43,
+    "category": "videos juegos, comics y anime",
+    "question": "¿En qué videojuego se introdujo por primera vez el personaje de Sonic the Hedgehog?",
+    "correct_answer": "Sonic the Hedgehog (1991)",
+    "incorrect_answers": [
+      "Sonic the Hedgehog 2",
+      "Sonic & Knuckles",
+      "Sonic CD"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "videos juegos, comics y anime",
+    "question": "¿En qué año se estrenó el anime 'Neon Genesis Evangelion'?",
+    "correct_answer": "1995",
+    "incorrect_answers": ["1998", "2001", "1992"]
+  },
+  {
+    "id": 45,
+    "category": "videos juegos, comics y anime",
+    "question": "¿Quién es el principal antagonista en la saga de videojuegos 'Final Fantasy VII'?",
+    "correct_answer": "Sephiroth",
+    "incorrect_answers": ["Kefka Palazzo", "Kuja", "Golbez"]
+  },
+  {
+    "id": 46,
+    "category": "videos juegos, comics y anime",
+    "question": "¿En qué serie de anime un joven llamado Eren Yeager obtiene la habilidad de transformarse en un Titán?",
+    "correct_answer": "Attack on Titan",
+    "incorrect_answers": ["Death Note", "Fullmetal Alchemist", "Naruto"]
+  },
+  {
+    "id": 47,
+    "category": "videos juegos, comics y anime",
+    "question": "¿Quién es el protagonista de la serie de anime Death Note?",
+    "correct_answer": "Light Yagami",
+    "incorrect_answers": ["L", "Ryuk", "Misa Amane"]
+  },
+  {
+    "id": 48,
+    "category": "videos juegos, comics y anime",
+    "question": "¿En qué videojuego se presenta por primera vez el personaje de Lara Croft?",
+    "correct_answer": "Tomb Raider (1996)",
+    "incorrect_answers": [
+      "Tomb Raider II",
+      "Tomb Raider: Legend",
+      "Tomb Raider: Underworld"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "videos juegos, comics y anime",
+    "question": "¿Quién es el creador del cómic 'The Walking Dead'?",
+    "correct_answer": "Robert Kirkman",
+    "incorrect_answers": ["Frank Miller", "Alan Moore", "Neil Gaiman"]
+  },
+  {
+    "id": 50,
+    "category": "videos juegos, comics y anime",
+    "question": "¿En qué videojuego el jugador controla a un personaje llamado Gordon Freeman?",
+    "correct_answer": "Half-Life",
+    "incorrect_answers": ["Doom", "BioShock", "Portal"]
+  },
+  {
+    "id": 51,
+    "category": "deporte",
+    "question": "¿En qué deporte se utiliza una raqueta para golpear una pelota sobre una red?",
+    "correct_answer": "Tenis",
+    "incorrect_answers": ["Golf", "Bádminton", "Squash"]
+  },
+  {
+    "id": 52,
+    "category": "deporte",
+    "question": "¿Cuál de estos equipos ha ganado más veces la Liga de Campeones de la UEFA?",
+    "correct_answer": "Real Madrid",
+    "incorrect_answers": ["Bayern Munich", "Liverpool", "Barcelona"]
+  },
+  {
+    "id": 53,
+    "category": "deporte",
+    "question": "¿Cuál es el máximo logro de un atleta en los Juegos Olímpicos?",
+    "correct_answer": "Medalla de oro",
+    "incorrect_answers": [
+      "Medalla de plata",
+      "Medalla de bronce",
+      "Diploma olímpico"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "deporte",
+    "question": "¿En qué deporte se utilizan guantes de boxeo?",
+    "correct_answer": "Boxeo",
+    "incorrect_answers": ["Esgrima", "Taekwondo", "Judo"]
+  },
+
+  {
+    "id": 55,
+    "category": "deporte",
+    "question": "¿Cuál de estos equipos es conocido como 'Los Merengues'?",
+    "correct_answer": "Real Madrid",
+    "incorrect_answers": ["FC Barcelona", "Manchester United", "Bayern Munich"]
+  },
+  {
+    "id": 56,
+    "category": "deporte",
+    "question": "¿En qué deporte se utiliza un bate para golpear una pelota lanzada por un lanzador?",
+    "correct_answer": "Béisbol",
+    "incorrect_answers": ["Críquet", "Golf", "Rugby"]
+  },
+  {
+    "id": 57,
+    "category": "deporte",
+    "question": "¿Qué equipo ganó la Copa Mundial de la FIFA en 2018?",
+    "correct_answer": "Francia",
+    "incorrect_answers": ["Croacia", "Brasil", "Alemania"]
+  },
+  {
+    "id": 58,
+    "category": "deporte",
+    "question": "¿Cuál es el deporte más popular en Brasil?",
+    "correct_answer": "Fútbol",
+    "incorrect_answers": ["Voleibol", "Baloncesto", "Surf"]
+  },
+  {
+    "id": 59,
+    "category": "deporte",
+    "question": "¿Cuál es el deporte de invierno en el que los competidores descienden por una pista de hielo a alta velocidad?",
+    "correct_answer": "Patinaje de velocidad",
+    "incorrect_answers": ["Snowboard", "Esquí alpino", "Bobsleigh"]
+  },
+  {
+    "id": 60,
+    "category": "deporte",
+    "question": "¿Cuál de estos deportes no se juega con una pelota?",
+    "correct_answer": "Natación",
+    "incorrect_answers": ["Baloncesto", "Fútbol", "Tenis"]
+  }
+]

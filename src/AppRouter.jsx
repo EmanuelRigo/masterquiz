@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
-import CategoryPage from "./CategoryPage";
+import "category"Page from "./"category"Page";
 import Navbar from "./Navbar";
 import InfoGame from "./InfoGame";
 import { Container } from "react-bootstrap";
