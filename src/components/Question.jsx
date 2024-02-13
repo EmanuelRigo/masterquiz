@@ -1,7 +1,7 @@
 import { ProgressBar, Row, Col } from "react-bootstrap";
 ///////may///////
 import { BsArrowThroughHeart } from "react-icons/bs";
-import "./Question.css";
+import "../Question.css";
 ///////fin may///////
 
 function Question() {

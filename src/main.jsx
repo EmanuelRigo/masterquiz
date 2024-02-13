@@ -7,10 +7,8 @@ import CustomProvider from "./components/CustomProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <CustomProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </CustomProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
