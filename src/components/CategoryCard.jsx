@@ -6,7 +6,7 @@ function CategoryCard({ category, icon }) {
     <Link className="text-decoration-none " to={`/category/${category}`}>
       <div className="categorycard btn btn-warning">
         {icon}
-        <p className="display-6">{category}</p>
+        {/*  <p className="display-6">{category}</p> */}
       </div>
     </Link>
   );
