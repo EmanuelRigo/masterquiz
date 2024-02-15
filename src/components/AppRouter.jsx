@@ -11,12 +11,12 @@ function AppRouter() {
   let navigationLink = useParams();
   console.log(navigationLink);
   return (
-    <Container className="d-flex align-items-center justify-content-between flex-column vh-100">
-      <Row className="vh-100 ">
-        <Col xs={12} md={2} className="bg-primary col-12 order-1 ">
+    <Container>
+      <div className="vh-100 d-flex flex-column flex-md-row">
+        <Col md={2} className="bg-primary order-1">
           <FooterAside></FooterAside>
         </Col>
-        <Col xs={12} md={10} className="bg-danger col-12 order-md-2 ">
+        <Col md={10} className="bg-danger order-md-2 flex-grow-1">
           {" "}
           <Navbar />
           <Routes>
@@ -32,7 +32,7 @@ function AppRouter() {
             ></Route>
           </Routes>
         </Col>
-      </Row>
+      </div>
     </Container>
   );
 }
