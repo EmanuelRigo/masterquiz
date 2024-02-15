@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+.App {
+  justify-content: space-between;
+}
 .navbar__title {
   color: white;
   font-family: "Sixtyfour", sans-serif;

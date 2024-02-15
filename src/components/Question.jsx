@@ -18,9 +18,9 @@ function Question() {
       </Col>
 
       <Col className="mb-3" xs={12}>
-        <ProgressBar now={60} />
+        // <ProgressBar now={60} />
+        //{" "}
       </Col>
-
       <Col sm={12} md={6} className="text-center ">
         {" "}
         <p className="bg-warning rounded p-2 text-dark">
