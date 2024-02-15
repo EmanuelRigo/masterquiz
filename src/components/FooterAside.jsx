@@ -1,9 +1,12 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 
 function FooterAside() {
   return (
-    <footer className="w-100 bg-warning">
-      <h3>footer</h3>
+    <footer className="row w-100">
+      <Col md={12}>
+        <h3>footer</h3>
+      </Col>
     </footer>
   );
 }

@@ -1,10 +1,36 @@
 import { ProgressBar, Row, Col } from "react-bootstrap";
-///////may///////
 import { BsArrowThroughHeart } from "react-icons/bs";
-import "../Question.css";
-///////fin may///////
+
+import { useState } from "react";
 
 function Question() {
+  const [numero, setNumero] = useState(0);
+
+  function crecimientoGradual() {
+    const intervalo = 50 * 1000;
+    const incrementoMaximo = 100;
+    const intervaloTiempo = 100;
+
+    const incrementarNumero = () => {
+      const incremento = incrementoMaximo / (intervalo / intervaloTiempo);
+
+      setNumero((prevNumero) => {
+        const nuevoNumero = prevNumero + incremento;
+        return nuevoNumero > incrementoMaximo ? incrementoMaximo : nuevoNumero;
+      });
+
+      if (numero > incrementoMaximo) {
+        numero = incrementoMaximo;
+      }
+      console.log(numero);
+
+      if (numero >= incrementoMaximo) {
+        clearInterval(intervaloIncremento);
+      }
+    };
+    const intervaloIncremento = setInterval(incrementarNumero, intervaloTiempo);
+  }
+
   return (
     <Row>
       <Col xs={12} className="text-center mb-4">
@@ -18,8 +44,9 @@ function Question() {
       </Col>
 
       <Col className="mb-3" xs={12}>
-        // <ProgressBar now={60} />
-        //{" "}
+        <ProgressBar now={Math.floor(numero)} />
+
+        <button onClick={crecimientoGradual}>iniciar</button>
       </Col>
       <Col sm={12} md={6} className="text-center ">
         {" "}

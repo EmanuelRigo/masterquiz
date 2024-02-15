@@ -28,6 +28,9 @@
 
 .categorycard {
 }
+.logo {
+  font-size: 130px;
+}
 
 @media screen and (max-width: 992px) {
   .navbar__title {
@@ -44,5 +47,8 @@
     height: 150px;
     width: 150px;
     font-size: 6rem;
+  }
+  .logo {
+    font-size: 80px;
   }
 }

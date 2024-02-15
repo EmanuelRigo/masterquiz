@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <header>
       <Link className="text-decoration-none navbar__title" to="/">
-        MasterQuiz!
+        <h1 className="navbar pt-5">MasterQuiz!</h1>
       </Link>
     </header>
   );
