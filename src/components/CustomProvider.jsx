@@ -1,15 +1,12 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext } from "react";
+import context from "react-bootstrap/esm/AccordionContext";
 
-export const contexto = createContext();
+const contexto = createContext();
 const Provider = contexto.Provider;
 
-export const useCart = () => {
-  const valorDelContexto = useContext(contexto);
-  return valorDelContexto;
-};
-
 function CustomProvider({ children }) {
-  return <Provider value={valorDelContexto}>{children}</Provider>;
+  const contextValue = {};
+  return <Provider value={contextValue}>{children}</Provider>;
 }
 
 export default CustomProvider;
