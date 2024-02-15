@@ -13,10 +13,10 @@ function AppRouter() {
   return (
     <Container>
       <div className="vh-100 d-flex flex-column flex-md-row">
-        <Col md={2} className="bg-primary order-1">
+        <Col md={1} className="bg-primary order-1">
           <FooterAside></FooterAside>
         </Col>
-        <Col md={10} className="bg-danger order-md-2 flex-grow-1">
+        <Col md={11} className="bg-danger order-md-2 flex-grow-1">
           {" "}
           <Navbar />
           <Routes>
