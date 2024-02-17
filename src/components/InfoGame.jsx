@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function InfoGame() {
   return (
-    <Card>
+    <Card className="col-md-6 text-center">
       <Card.Body>
         <Card.Title>Un jugador</Card.Title>
         <Card.Text>

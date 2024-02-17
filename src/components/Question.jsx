@@ -71,4 +71,3 @@ function Question() {
 }
 
 export default Question;
-// s;

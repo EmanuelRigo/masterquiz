@@ -6,7 +6,7 @@ import { Button, Row, Col } from "react-bootstrap";
 
 function HomePage() {
   return (
-    <Row className="w-100">
+    <Row className="mx-0 w-100">
       <Col md={6} className="text-center my-3">
         <Link to="/infogame" className="btn btn-warning w-50 p-3">
           un jugagador

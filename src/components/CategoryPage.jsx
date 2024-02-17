@@ -1,5 +1,5 @@
 import Question from "./Question";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { TiLeaf } from "react-icons/ti";
 import { MdOutlineScience } from "react-icons/md";
@@ -8,11 +8,25 @@ import { BiWorld } from "react-icons/bi";
 import { MdOutlineSportsFootball } from "react-icons/md";
 import { IoGameControllerOutline } from "react-icons/io5";
 import { Button } from "react-bootstrap";
+import data from "../questionsDB.json";
+
+const shuffleArray = (array) => {
+  const newArray = array.sort(() => Math.random() - 0.5);
+  return newArray.slice(0, 5);
+};
 
 function CategoryPage() {
   let [activate, setActivate] = useState(false);
 
   const { category } = useParams();
+
+  const [questionFiltered, SetQuestionFiltered] = useState(
+    data.filter((question) => question.category === category)
+  );
+
+  useEffect(() => {}, []);
+
+  console.log("questionFiltered" + questionFiltered);
 
   let componente;
 

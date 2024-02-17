@@ -11,26 +11,33 @@ function AppRouter() {
   let navigationLink = useParams();
   console.log(navigationLink);
   return (
-    <Container>
+    <Container fluid>
       <div className="vh-100 d-flex flex-column flex-md-row">
-        <Col md={1} className="bg-primary order-1">
-          <FooterAside></FooterAside>
-        </Col>
-        <Col md={11} className="bg-danger order-md-2 flex-grow-1">
-          {" "}
+        <Row className="order-1 m-md-0">
+          <Col className="bg-warning ">
+            <FooterAside></FooterAside>
+          </Col>
+        </Row>
+
+        <Col
+          md={11}
+          className=" order-md-2 flex-grow-1 d-flex flex-column justify-content-between align-items-center"
+        >
           <Navbar />
-          <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/infogame" element={<InfoGame></InfoGame>}></Route>
-            <Route
-              path="/categorylist"
-              element={<CategoryList></CategoryList>}
-            ></Route>
-            <Route
-              path="/category/:category"
-              element={<CategoryPage />}
-            ></Route>
-          </Routes>
+          <div className="flex-grow-1 w-100 d-flex justify-content-center align-items-center">
+            <Routes>
+              <Route path="/" element={<HomePage />}></Route>
+              <Route path="/infogame" element={<InfoGame></InfoGame>}></Route>
+              <Route
+                path="/categorylist"
+                element={<CategoryList></CategoryList>}
+              ></Route>
+              <Route
+                path="/category/:category"
+                element={<CategoryPage />}
+              ></Route>
+            </Routes>
+          </div>
         </Col>
       </div>
     </Container>
