@@ -3,7 +3,14 @@ import { BsArrowThroughHeart } from "react-icons/bs";
 
 import { useState } from "react";
 
-function Question() {
+function Question({
+  filteredQuestions,
+  setIndexQuestion,
+  indexQuestion,
+  questionFiltered,
+  icon,
+}) {
+  console.log(filteredQuestions);
   const [numero, setNumero] = useState(0);
 
   function crecimientoGradual() {
@@ -30,15 +37,21 @@ function Question() {
     const intervaloIncremento = setInterval(incrementarNumero, intervaloTiempo);
   }
 
+  const nextQuestions = () => {
+    setIndexQuestion(indexQuestion + 1);
+  };
+
   return (
     <Row>
       <Col xs={12} className="text-center mb-4">
-        <BsArrowThroughHeart className="text-light logo" />
+        <span className="text-light logo">{icon}</span>
+        <span className="text-light">
+          {indexQuestion + 1} / {questionFiltered.length}
+        </span>
       </Col>
       <Col xs={12}>
         <p className="text-light text-center mb-4 fs-6  ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          laboriosam ab omnis nemo quidem eos magni ipsam, ipsa facere
+          {filteredQuestions.question}
         </p>
       </Col>
 
@@ -64,6 +77,14 @@ function Question() {
         <p className="bg-warning rounded p-2 text-dark">
           Lorem ipsum dolor sit amet.
         </p>{" "}
+      </Col>
+      <Col>
+        <button
+          onClick={nextQuestions}
+          className="btn btn-warning rounded p-2 text-dark w-100"
+        >
+          siguiente pregunta
+        </button>
       </Col>
     </Row>
   );

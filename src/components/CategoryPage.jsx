@@ -23,10 +23,11 @@ function CategoryPage() {
     data.filter((question) => question.category === category)
   );
 
+  const [indexQuestion, setIndexQuestion] = useState(0);
+
   useEffect(() => {
     const newQuestions = shuffleArray(questionFiltered);
     SetQuestionFiltered(newQuestions);
-    console.log(newQuestions);
   }, []);
 
   let componente;
@@ -52,9 +53,15 @@ function CategoryPage() {
       break;
   }
 
-  console.log(category);
   return activate ? (
-    <Question></Question>
+    <Question
+      filteredQuestions={questionFiltered[indexQuestion]}
+      setIndexQuestion={setIndexQuestion}
+      indexQuestion={indexQuestion}
+      questionFiltered={questionFiltered}
+      icon={componente}
+      setActivate={setActivate}
+    ></Question>
   ) : (
     <>
       <h3 className="text-light">{category}</h3>
