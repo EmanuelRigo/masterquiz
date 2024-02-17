@@ -19,14 +19,15 @@ function CategoryPage() {
   let [activate, setActivate] = useState(false);
 
   const { category } = useParams();
-
   const [questionFiltered, SetQuestionFiltered] = useState(
     data.filter((question) => question.category === category)
   );
 
-  useEffect(() => {}, []);
-
-  console.log("questionFiltered" + questionFiltered);
+  useEffect(() => {
+    const newQuestions = shuffleArray(questionFiltered);
+    SetQuestionFiltered(newQuestions);
+    console.log(newQuestions);
+  }, []);
 
   let componente;
 
@@ -34,13 +35,13 @@ function CategoryPage() {
     case "ciencia":
       componente = <MdOutlineScience />;
       break;
-    case "espetaculos":
+    case "espectaculo":
       componente = <TbMovie />;
       break;
-    case "historioa-y-geografia":
+    case "historia-y-geografia":
       componente = <BiWorld />;
       break;
-    case "deportes":
+    case "deporte":
       componente = <MdOutlineSportsFootball />;
       break;
     case "videojuegos-comics-y-anime":

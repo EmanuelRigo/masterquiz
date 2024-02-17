@@ -22,7 +22,6 @@ function Question() {
       if (numero > incrementoMaximo) {
         numero = incrementoMaximo;
       }
-      console.log(numero);
 
       if (numero >= incrementoMaximo) {
         clearInterval(intervaloIncremento);

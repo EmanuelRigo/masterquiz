@@ -21,19 +21,19 @@ function CategoryList() {
       <Col className="d-flex justify-content-center py-3">
         <CategoryCard
           icon={<TbMovie />}
-          category={"espetaculos"}
+          category={"espectaculo"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">
         <CategoryCard
           icon={<BiWorld />}
-          category={"historioa-y-geografia"}
+          category={"historia-y-geografia"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">
         <CategoryCard
           icon={<MdOutlineSportsFootball />}
-          category={"deportes"}
+          category={"deporte"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">

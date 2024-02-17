@@ -1,14 +1,14 @@
- [
+[
   {
     "id": 1,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
     "correct_answer": "1919",
     "incorrect_answers": ["1918", "1920", "1921"]
   },
   {
     "id": 2,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Cuál fue la primera civilización en la historia conocida?",
     "correct_answer": "Civilización sumeria",
     "incorrect_answers": [
@@ -19,56 +19,56 @@
   },
   {
     "id": 3,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Dónde se encuentra la Gran Muralla?",
     "correct_answer": "China",
     "incorrect_answers": ["Japón", "Corea del Sur", "India"]
   },
   {
     "id": 4,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Cuál fue el primer país en enviar un ser humano al espacio?",
     "correct_answer": "Unión Soviética",
     "incorrect_answers": ["Estados Unidos", "China", "India"]
   },
   {
     "id": 5,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
     "correct_answer": "Perú",
     "incorrect_answers": ["Ecuador", "Bolivia", "Colombia"]
   },
   {
     "id": 6,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Quién fue el primer presidente de Estados Unidos?",
     "correct_answer": "George Washington",
     "incorrect_answers": ["Thomas Jefferson", "Abraham Lincoln", "John Adams"]
   },
   {
     "id": 7,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Cuál fue la capital del Imperio Romano?",
     "correct_answer": "Roma",
     "incorrect_answers": ["Atenas", "Alejandría", "Constantinopla"]
   },
   {
     "id": 8,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿En qué continente se encuentra el río Nilo?",
     "correct_answer": "África",
     "incorrect_answers": ["Asia", "Europa", "América del Sur"]
   },
   {
     "id": 9,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Cuál es el océano más grande del mundo?",
     "correct_answer": "Océano Pacífico",
     "incorrect_answers": ["Océano Atlántico", "Océano Índico", "Océano Ártico"]
   },
   {
     "id": 10,
-    "category": "Historia y Geografía",
+    "category": "historia-y-geografia",
     "question": "¿Cuál es la montaña más alta del mundo?",
     "correct_answer": "Monte Everest",
     "incorrect_answers": [
@@ -79,7 +79,7 @@
   },
   {
     "id": 11,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Qué fenómeno natural es responsable de la formación de un arcoíris?",
     "correct_answer": "Reflexión y refracción de la luz en gotas de lluvia",
     "incorrect_answers": [
@@ -90,21 +90,21 @@
   },
   {
     "id": 12,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Cuál es la unidad básica de la estructura de la materia?",
     "correct_answer": "Átomo",
     "incorrect_answers": ["Molécula", "Célula", "Partícula elemental"]
   },
   {
     "id": 13,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía química?",
     "correct_answer": "Fotosíntesis",
     "incorrect_answers": ["Respiración celular", "Transpiración", "Digestión"]
   },
   {
     "id": 14,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Qué ley de la física establece que la energía no puede ser creada ni destruida, solo transformada de una forma a otra?",
     "correct_answer": "Primera ley de la termodinámica",
     "incorrect_answers": [
@@ -115,7 +115,7 @@
   },
   {
     "id": 15,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Cuál es el proceso mediante el cual se produce la fusión nuclear en el núcleo del Sol?",
     "correct_answer": "Reacción de fusión de hidrógeno",
     "incorrect_answers": [
@@ -126,7 +126,7 @@
   },
   {
     "id": 16,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Cuál es la ley de la física que describe la atracción entre dos cuerpos debido a su masa?",
     "correct_answer": "Ley de gravitación universal",
     "incorrect_answers": [
@@ -137,14 +137,14 @@
   },
   {
     "id": 17,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Cuál es el órgano del sistema respiratorio donde ocurre el intercambio gaseoso entre el oxígeno y el dióxido de carbono?",
     "correct_answer": "Pulmones",
     "incorrect_answers": ["Tráquea", "Faringe", "Bronquios"]
   },
   {
     "id": 18,
-    "category": "Ciencia",
+    "category": "ciencia",
     "question": "¿Cuál es el proceso mediante el cual se transforma el vapor de agua en agua líquida?",
     "correct_answer": "Condensación",
     "incorrect_answers": ["Evaporación", "Sublimación", "Solidificación"]
@@ -329,21 +329,21 @@
   },
   {
     "id": 41,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿Cuál es el nombre del personaje principal de la serie de videojuegos 'The Legend of Zelda'?",
     "correct_answer": "Link",
     "incorrect_answers": ["Zelda", "Ganondorf", "Epona"]
   },
   {
     "id": 42,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿Quién es el creador del cómic 'Spider-Man'?",
     "correct_answer": "Stan Lee",
     "incorrect_answers": ["Jack Kirby", "Steve Ditko", "Bob Kane"]
   },
   {
     "id": 43,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿En qué videojuego se introdujo por primera vez el personaje de Sonic the Hedgehog?",
     "correct_answer": "Sonic the Hedgehog (1991)",
     "incorrect_answers": [
@@ -354,35 +354,35 @@
   },
   {
     "id": 44,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿En qué año se estrenó el anime 'Neon Genesis Evangelion'?",
     "correct_answer": "1995",
     "incorrect_answers": ["1998", "2001", "1992"]
   },
   {
     "id": 45,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿Quién es el principal antagonista en la saga de videojuegos 'Final Fantasy VII'?",
     "correct_answer": "Sephiroth",
     "incorrect_answers": ["Kefka Palazzo", "Kuja", "Golbez"]
   },
   {
     "id": 46,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿En qué serie de anime un joven llamado Eren Yeager obtiene la habilidad de transformarse en un Titán?",
     "correct_answer": "Attack on Titan",
     "incorrect_answers": ["Death Note", "Fullmetal Alchemist", "Naruto"]
   },
   {
     "id": 47,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿Quién es el protagonista de la serie de anime Death Note?",
     "correct_answer": "Light Yagami",
     "incorrect_answers": ["L", "Ryuk", "Misa Amane"]
   },
   {
     "id": 48,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿En qué videojuego se presenta por primera vez el personaje de Lara Croft?",
     "correct_answer": "Tomb Raider (1996)",
     "incorrect_answers": [
@@ -393,14 +393,14 @@
   },
   {
     "id": 49,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿Quién es el creador del cómic 'The Walking Dead'?",
     "correct_answer": "Robert Kirkman",
     "incorrect_answers": ["Frank Miller", "Alan Moore", "Neil Gaiman"]
   },
   {
     "id": 50,
-    "category": "videos juegos, comics y anime",
+    "category": "videojuegos-comics-y-anime",
     "question": "¿En qué videojuego el jugador controla a un personaje llamado Gordon Freeman?",
     "correct_answer": "Half-Life",
     "incorrect_answers": ["Doom", "BioShock", "Portal"]
