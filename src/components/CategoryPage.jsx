@@ -1,5 +1,5 @@
 import Question from "./Question";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { TiLeaf } from "react-icons/ti";
 import { MdOutlineScience } from "react-icons/md";
@@ -7,15 +7,18 @@ import { TbMovie } from "react-icons/tb";
 import { BiWorld } from "react-icons/bi";
 import { MdOutlineSportsFootball } from "react-icons/md";
 import { IoGameControllerOutline } from "react-icons/io5";
-import { Button } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import data from "../questionsDB.json";
-
-const shuffleArray = (array) => {
-  const newArray = array.sort(() => Math.random() - 0.5);
-  return newArray.slice(0, 5);
-};
+import { contexto } from "./CustomProvider";
 
 function CategoryPage() {
+  const { boardGame } = useContext(contexto);
+
+  const shuffleArray = (array) => {
+    const newArray = array.sort(() => Math.random() - 0.5);
+    return newArray.slice(0, boardGame ? 1 : 5);
+  };
+
   let [activate, setActivate] = useState(false);
 
   const { category } = useParams();
@@ -28,6 +31,9 @@ function CategoryPage() {
   useEffect(() => {
     const newQuestions = shuffleArray(questionFiltered);
     SetQuestionFiltered(newQuestions);
+    if (boardGame) {
+      setActivate(true);
+    }
   }, []);
 
   let componente;
@@ -55,7 +61,7 @@ function CategoryPage() {
 
   return activate ? (
     <Question
-      filteredQuestions={questionFiltered[indexQuestion]}
+      filteredQuestion={questionFiltered[indexQuestion]}
       setIndexQuestion={setIndexQuestion}
       indexQuestion={indexQuestion}
       questionFiltered={questionFiltered}
@@ -63,18 +69,26 @@ function CategoryPage() {
       setActivate={setActivate}
     ></Question>
   ) : (
-    <>
-      <h3 className="text-light">{category}</h3>
-      <div className="text-light">{componente}</div>
-      <Button
-        className="btn-warning"
-        onClick={() => {
-          setActivate(true);
-        }}
-      >
-        iniciar Quiz
-      </Button>
-    </>
+    <Row className=" flex-column align-items-center">
+      <Col className="text-center categorypage__icon">
+        <div className="text-light">{componente}</div>
+      </Col>{" "}
+      <Col>
+        <h3 className="text-light pt-3  pb-4 text-center">
+          {category.replace(/-/g, " ")}
+        </h3>
+      </Col>
+      <Col>
+        <Button
+          className="btn-warning w-100"
+          onClick={() => {
+            setActivate(true);
+          }}
+        >
+          iniciar Quiz
+        </Button>
+      </Col>
+    </Row>
   );
 }
 

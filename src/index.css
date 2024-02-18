@@ -23,10 +23,13 @@
 .categorycard {
   height: 340px;
   width: 340px;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 10rem;
+}
+
+.categorypage__icon {
   font-size: 10rem;
 }
 
