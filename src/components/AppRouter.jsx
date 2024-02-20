@@ -6,6 +6,7 @@ import InfoGame from "./InfoGame";
 import { Container, Row, Col } from "react-bootstrap";
 import CategoryList from "./CategoryList";
 import FooterAside from "./FooterAside";
+import Dice from "./Dice";
 
 function AppRouter() {
   let navigationLink = useParams();
@@ -36,6 +37,7 @@ function AppRouter() {
                 path="/category/:category"
                 element={<CategoryPage />}
               ></Route>
+              <Route path="/dice" element={<Dice></Dice>}></Route>
             </Routes>
           </div>
         </Col>

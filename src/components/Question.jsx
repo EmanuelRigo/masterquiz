@@ -135,6 +135,9 @@ function Question({
     SetSelectAnswerIndex(null);
     setAnsewered(false);
     setContador(0);
+    if (boardGame) {
+      detenerContador();
+    }
   };
 
   const onReset = () => {
