@@ -16,7 +16,7 @@ function CategoryPage() {
 
   const shuffleArray = (array) => {
     const newArray = array.sort(() => Math.random() - 0.5);
-    return newArray.slice(0, boardGame ? 1 : 5);
+    return newArray.slice(0, boardGame ? 15 : 5);
   };
 
   let [activate, setActivate] = useState(false);
@@ -67,6 +67,7 @@ function CategoryPage() {
       questionFiltered={questionFiltered}
       icon={componente}
       setActivate={setActivate}
+      shuffleArray={shuffleArray}
     ></Question>
   ) : (
     <Row className=" flex-column align-items-center">

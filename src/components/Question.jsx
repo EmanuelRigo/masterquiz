@@ -14,13 +14,14 @@ function Question({
   questionFiltered,
   icon,
   setActivate,
+  shuffleArray,
 }) {
-  //console.log(filteredQuestion);
+  console.log(filteredQuestion);
 
   const { boardGame } = useContext(contexto);
 
   //Funciones para barra de tiempo///
-  const [numero, setNumero] = useState(0);
+  let [numero, setNumero] = useState(0);
 
   function crecimientoGradual() {
     const intervalo = 30 * 1000;
@@ -79,6 +80,11 @@ function Question({
       }, 300);
     }
   }
+
+  function detenerContador() {
+    clearInterval(intervaloRef.current);
+    intervaloRef.current = null;
+  }
   /*   function ejecutarContador() {
     const intervalo = setInterval(() => {
       setContador((prevContador) => {
@@ -120,6 +126,7 @@ function Question({
     }
     SetSelectAnswerIndex(index);
     setAnsewered(true);
+    detenerContador();
   };
 
   const onNextQuestions = () => {
@@ -162,10 +169,9 @@ function Question({
           </Col>
 
           <Col className="mb-3" xs={12}>
-            <h5 className="text-light">{contador}</h5>
             <ProgressBar now={contador} />
             {boardGame ? (
-              <button onClick={crecimientoGradual}>iniciar</button>
+              <button onClick={ejecutarContador}>iniciar</button>
             ) : (
               ""
             )}
@@ -183,7 +189,9 @@ function Question({
                   }`}
                   onClick={() => checkAnswer(answer, index)}
                   key={answer}
-                  disabled={answered && selectAnswerIndex !== index}
+                  disabled={
+                    (answered && selectAnswerIndex !== index) || contador == 100
+                  }
                 >
                   {answer}
                 </Button>
@@ -192,7 +200,59 @@ function Question({
           </Col>
 
           <Col>
-            {indexQuestion + 1 === questionFiltered.length ? (
+            {boardGame ? (
+              indexQuestion + 1 === questionFiltered.length ? (
+                <button className="btn btn-warning rounded p-2 text-dark w-100">
+                  categorias
+                </button>
+              ) : (
+                <>
+                  <button
+                    onClick={onNextQuestions}
+                    className="btn btn-warning rounded p-2 text-dark w-100"
+                  >
+                    otra pregunta
+                  </button>
+                  <button className="btn btn-warning rounded p-2 text-dark w-100">
+                    categorias
+                  </button>
+                </>
+              )
+            ) : indexQuestion + 1 === questionFiltered.length ? (
+              <>
+                <button
+                  onClick={() => {
+                    setAnsewered(false);
+                    setActiveResult(true);
+                  }}
+                  className="btn btn-warning rounded p-2 text-dark w-100"
+                >
+                  finalizar
+                </button>
+                <button
+                  onClick={onReset}
+                  className="btn btn-warning rounded p-2 text-dark w-100"
+                >
+                  reiniciar
+                </button>
+              </>
+            ) : (
+              <>
+                <button
+                  onClick={onNextQuestions}
+                  className="btn btn-warning rounded p-2 text-dark w-100"
+                >
+                  siguiente pregunta
+                </button>
+                <button
+                  onClick={onReset}
+                  className="btn btn-warning rounded p-2 text-dark w-100"
+                >
+                  reiniciar
+                </button>
+              </>
+            )}
+            {/*  {indexQuestion + 1 === questionFiltered.length ? (
               <button
                 onClick={() => {
                   setAnsewered(false);
@@ -210,13 +270,12 @@ function Question({
                 siguiente pregunta
               </button>
             )}
-
             <button
               onClick={onReset}
               className="btn btn-warning rounded p-2 text-dark w-100"
             >
               reiniciar
-            </button>
+            </button> */}
           </Col>
         </Row>
       )}
