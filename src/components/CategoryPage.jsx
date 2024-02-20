@@ -1,6 +1,6 @@
 import Question from "./Question";
 import { useEffect, useState, useContext } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { TiLeaf } from "react-icons/ti";
 import { MdOutlineScience } from "react-icons/md";
 import { TbMovie } from "react-icons/tb";
@@ -88,6 +88,12 @@ function CategoryPage() {
         >
           iniciar Quiz
         </Button>
+        <Link
+          to="/categorylist"
+          className="btn btn-warning rounded p-2 text-dark w-100"
+        >
+          categorias
+        </Link>
       </Col>
     </Row>
   );

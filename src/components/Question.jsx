@@ -6,6 +6,7 @@ import { useState, useEffect, useContext, useRef } from "react";
 import { TbH1 } from "react-icons/tb";
 
 import { contexto } from "./CustomProvider";
+import { Link } from "react-router-dom";
 
 function Question({
   filteredQuestion,
@@ -202,9 +203,12 @@ function Question({
           <Col>
             {boardGame ? (
               indexQuestion + 1 === questionFiltered.length ? (
-                <button className="btn btn-warning rounded p-2 text-dark w-100">
+                <Link
+                  to="/categorylist"
+                  className="btn btn-warning rounded p-2 text-dark w-100"
+                >
                   categorias
-                </button>
+                </Link>
               ) : (
                 <>
                   <button
@@ -213,9 +217,12 @@ function Question({
                   >
                     otra pregunta
                   </button>
-                  <button className="btn btn-warning rounded p-2 text-dark w-100">
+                  <Link
+                    to="/categorylist"
+                    className="btn btn-warning rounded p-2 text-dark w-100"
+                  >
                     categorias
-                  </button>
+                  </Link>
                 </>
               )
             ) : indexQuestion + 1 === questionFiltered.length ? (
