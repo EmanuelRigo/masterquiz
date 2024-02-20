@@ -2,7 +2,7 @@ import Results from "./Results";
 import { ProgressBar, Row, Col, Button } from "react-bootstrap";
 import { BsArrowThroughHeart } from "react-icons/bs";
 
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext, useRef } from "react";
 import { TbH1 } from "react-icons/tb";
 
 import { contexto } from "./CustomProvider";
@@ -15,7 +15,7 @@ function Question({
   icon,
   setActivate,
 }) {
-  console.log(filteredQuestion);
+  //console.log(filteredQuestion);
 
   const { boardGame } = useContext(contexto);
 
@@ -46,6 +46,52 @@ function Question({
     const intervaloIncremento = setInterval(incrementarNumero, intervaloTiempo);
   }
 
+  //Funcion de tiempo 2 ////
+  const [contador, setContador] = useState(0);
+
+  /*   function ejecutarContador() {
+    function incrementarContador() {
+      setContador(contador + 1);
+      console.log("El contador es ahora: " + contador);
+
+      if (contador >= 100) {
+        clearInterval(intervalo);
+      }
+    }
+
+    const intervalo = setInterval(incrementarContador, 300);
+  } */
+
+  const intervaloRef = useRef(null);
+
+  function ejecutarContador() {
+    if (intervaloRef.current === null) {
+      intervaloRef.current = setInterval(() => {
+        setContador((prevContador) => {
+          const nuevoContador = prevContador + 1;
+          console.log("El contador es ahora: " + nuevoContador);
+          if (nuevoContador >= 100) {
+            clearInterval(intervaloRef.current);
+            intervaloRef.current = null;
+          }
+          return nuevoContador;
+        });
+      }, 300);
+    }
+  }
+  /*   function ejecutarContador() {
+    const intervalo = setInterval(() => {
+      setContador((prevContador) => {
+        const nuevoContador = prevContador + 1;
+        console.log("El contador es ahora: " + nuevoContador);
+        if (nuevoContador > 98) {
+          clearInterval(intervalo);
+        }
+        return nuevoContador;
+      });
+    }, 300);
+  } */
+
   //Funciones de preguntas
 
   const [answersRandom, setAnswerRandom] = useState([]);
@@ -63,7 +109,8 @@ function Question({
     setAnswerRandom(answer.sort(() => Math.random() - 0.5));
 
     if (!boardGame) {
-      crecimientoGradual();
+      //crecimientoGradual();
+      ejecutarContador();
     }
   }, [filteredQuestion]);
 
@@ -79,6 +126,7 @@ function Question({
     setIndexQuestion(indexQuestion + 1);
     SetSelectAnswerIndex(null);
     setAnsewered(false);
+    setContador(0);
   };
 
   const onReset = () => {
@@ -114,7 +162,8 @@ function Question({
           </Col>
 
           <Col className="mb-3" xs={12}>
-            <ProgressBar now={Math.floor(numero)} />
+            <h5 className="text-light">{contador}</h5>
+            <ProgressBar now={contador} />
             {boardGame ? (
               <button onClick={crecimientoGradual}>iniciar</button>
             ) : (
