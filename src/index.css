@@ -60,4 +60,11 @@
   .logo {
     font-size: 80px;
   }
+  .custom-btn {
+    height: 65px;
+  }
+
+  .custom-question {
+    height: 65px;
+  }
 }
