@@ -12,7 +12,10 @@ function FooterAside() {
   return (
     <footer className="d-flex flex-column h-md-100 justify-content-end align-items-center">
       <div className="p-2">
-        <FaHouse className="icon" />
+        <Link to={"/"}>
+          <FaHouse className="icon" />
+        </Link>
+
         {boardGame ? (
           <Link className="icon" to={"/dice"}>
             <IoDiceOutline className="icon"></IoDiceOutline>
