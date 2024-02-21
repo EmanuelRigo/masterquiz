@@ -196,7 +196,8 @@ function Question({
               {answersRandom.map((answer, index) => (
                 <Col className="p-1">
                   <Button
-                    className={`w-100 p-2 ${
+                    size="sm"
+                    className={`w-100 h-100 py-2 ${
                       selectAnswerIndex !== null && index === selectAnswerIndex
                         ? answer === filteredQuestion.correct_answer
                           ? "btn-success"
