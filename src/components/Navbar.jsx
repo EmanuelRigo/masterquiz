@@ -14,7 +14,7 @@ function Navbar() {
         }}
         className="text-decoration-none navbar__title"
       >
-        <h1 className="text-center">MasterQuiz!</h1>
+        <h1 className="text-center my-0">MasterQuiz!</h1>
       </Link>
     </header>
   );

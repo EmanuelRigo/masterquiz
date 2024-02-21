@@ -170,17 +170,17 @@ function Question({
             )}
           </Col>
           <Col xs={12}>
-            <p className="text-light text-center mb-4 fs-6 custom-question ">
+            <p className="text-light text-center mb-2 fs-6 custom-question ">
               {filteredQuestion.question}
             </p>
           </Col>
 
-          <Col className="mb-3" xs={12}>
-            <ProgressBar now={contador} />
+          <Col className="mb-2" xs={12}>
+            {" "}
             {boardGame ? (
               <Col
                 xs={3}
-                className="rounded mx-auto mt-4 mb-2 bg-warning p-3 text-center"
+                className="rounded mx-auto  bg-warning p-3 mb-4 text-center"
               >
                 <FaPlay
                   onClick={ejecutarContador}
@@ -190,6 +190,7 @@ function Question({
             ) : (
               ""
             )}
+            <ProgressBar now={contador} />
           </Col>
           <Col md={12} className="text-center ">
             <Row className="row-cols-2  row-cols-md-2 mx-0 mb-3">
