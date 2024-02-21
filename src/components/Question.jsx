@@ -230,7 +230,7 @@ function Question({
                 <>
                   <button
                     onClick={onNextQuestions}
-                    className="btn btn-warning rounded p-2 text-dark w-100"
+                    className="btn btn-warning rounded p-2 text-dark w-100 mb-2"
                   >
                     otra pregunta
                   </button>
