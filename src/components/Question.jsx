@@ -197,6 +197,11 @@ function Question({
                 <Col className="p-1">
                   <Button
                     size="sm"
+                    style={{
+                      height: "auto",
+                      paddingTop: "1.5rem",
+                      paddingBottom: "1.5rem",
+                    }}
                     className={`w-100 h-100 py-2 ${
                       selectAnswerIndex !== null && index === selectAnswerIndex
                         ? answer === filteredQuestion.correct_answer

@@ -81,7 +81,7 @@ function CategoryPage() {
       </Col>
       <Col>
         <Button
-          className="btn-warning w-100"
+          className="btn-warning w-100 mb-3"
           onClick={() => {
             setActivate(true);
           }}
