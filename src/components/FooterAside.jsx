@@ -8,11 +8,16 @@ import { useContext } from "react";
 import { IoDiceOutline } from "react-icons/io5";
 
 function FooterAside() {
-  const { boardGame } = useContext(contexto);
+  const { boardGame, onBoardGame } = useContext(contexto);
   return (
     <footer className="d-flex flex-column h-md-100 justify-content-end align-items-center">
       <div className="p-2">
-        <Link to={"/"}>
+        <Link
+          onClick={() => {
+            onBoardGame(false);
+          }}
+          to={"/"}
+        >
           <FaHouse className="icon" />
         </Link>
 

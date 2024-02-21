@@ -8,6 +8,9 @@ import { TbH1 } from "react-icons/tb";
 import { contexto } from "./CustomProvider";
 import { Link } from "react-router-dom";
 
+import { HiOutlinePlayCircle } from "react-icons/hi2";
+import { FaPlay } from "react-icons/fa";
+
 function Question({
   filteredQuestion,
   setIndexQuestion,
@@ -175,30 +178,41 @@ function Question({
           <Col className="mb-3" xs={12}>
             <ProgressBar now={contador} />
             {boardGame ? (
-              <button onClick={ejecutarContador}>iniciar</button>
+              <Col
+                xs={3}
+                className="rounded mx-auto mt-4 mb-2 bg-warning p-3 text-center"
+              >
+                <FaPlay
+                  onClick={ejecutarContador}
+                  className="logo fs-1"
+                ></FaPlay>
+              </Col>
             ) : (
               ""
             )}
           </Col>
           <Col md={12} className="text-center ">
-            <Row className="row-cols-1 row-cols-md-2 mx-0">
+            <Row className="row-cols-2  row-cols-md-2 mx-0 mb-3">
               {answersRandom.map((answer, index) => (
-                <Button
-                  className={`col ${
-                    selectAnswerIndex !== null && index === selectAnswerIndex
-                      ? answer === filteredQuestion.correct_answer
-                        ? "btn-success"
-                        : "btn-danger"
-                      : ""
-                  }`}
-                  onClick={() => checkAnswer(answer, index)}
-                  key={answer}
-                  disabled={
-                    (answered && selectAnswerIndex !== index) || contador == 100
-                  }
-                >
-                  {answer}
-                </Button>
+                <Col className="p-1">
+                  <Button
+                    className={`w-100 p-2 ${
+                      selectAnswerIndex !== null && index === selectAnswerIndex
+                        ? answer === filteredQuestion.correct_answer
+                          ? "btn-success"
+                          : "btn-danger"
+                        : ""
+                    }`}
+                    onClick={() => checkAnswer(answer, index)}
+                    key={answer}
+                    disabled={
+                      (answered && selectAnswerIndex !== index) ||
+                      contador == 100
+                    }
+                  >
+                    {answer}
+                  </Button>
+                </Col>
               ))}
             </Row>
           </Col>
