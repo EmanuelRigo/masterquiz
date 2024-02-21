@@ -13,9 +13,9 @@ function AppRouter() {
   console.log(navigationLink);
   return (
     <Container fluid>
-      <div className="vh-100 d-flex flex-column flex-md-row">
-        <Row className="order-1 m-md-0">
-          <Col className="bg-warning ">
+      <div className="vh-100 d-flex flex-column flex-md-row ">
+        <Row className="order-1 m-md-0 col-md-1 p-md-3">
+          <Col className="bg-warning rounded">
             <FooterAside></FooterAside>
           </Col>
         </Row>
