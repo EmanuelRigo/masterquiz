@@ -15,7 +15,7 @@ function AppRouter() {
     <Container fluid>
       <div className="vh-100 d-flex flex-column flex-md-row ">
         <Row className="order-1 m-md-0 col-md-1 p-md-3">
-          <Col className="bg-warning rounded">
+          <Col className="bg-warning rounded asidefooter">
             <FooterAside></FooterAside>
           </Col>
         </Row>

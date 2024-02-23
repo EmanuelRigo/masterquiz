@@ -41,6 +41,16 @@
   color: #212529;
 }
 
+.trophy__gold {
+  font-size: 8rem;
+  color: #f1e100;
+}
+
+.trophy__silver {
+  font-size: 8rem;
+  color: #aaa;
+}
+
 @media screen and (max-width: 992px) {
   .navbar__title {
     font-size: 3rem;
@@ -67,5 +77,11 @@
 
   .custom-question {
     height: 65px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .asidefooter {
+    max-width: 80px;
   }
 }

@@ -20,8 +20,6 @@ function Question({
   setActivate,
   shuffleArray,
 }) {
-  console.log(filteredQuestion);
-
   const { boardGame } = useContext(contexto);
 
   //Funciones para barra de tiempo///
@@ -74,7 +72,7 @@ function Question({
       intervaloRef.current = setInterval(() => {
         setContador((prevContador) => {
           const nuevoContador = prevContador + 1;
-          console.log("El contador es ahora: " + nuevoContador);
+          //console.log("El contador es ahora: " + nuevoContador);
           if (nuevoContador >= 100) {
             clearInterval(intervaloRef.current);
             intervaloRef.current = null;
@@ -159,7 +157,10 @@ function Question({
         ></Results>
       ) : (
         <Row>
-          <Col xs={12} className="text-center mb-4">
+          <Col
+            xs={12}
+            className="text-center mb-4 d-flex align-items-center flex-column"
+          >
             <span className="text-light logo">{icon}</span>
             {boardGame ? (
               ""
@@ -195,7 +196,7 @@ function Question({
           <Col md={12} className="text-center ">
             <Row className="row-cols-2  row-cols-md-2 mx-0 mb-3">
               {answersRandom.map((answer, index) => (
-                <Col className="p-1">
+                <Col key={index} className="p-1">
                   <Button
                     className={`w-100 custom-btn py-2 ${
                       selectAnswerIndex !== null && index === selectAnswerIndex
@@ -250,7 +251,7 @@ function Question({
                     setAnsewered(false);
                     setActiveResult(true);
                   }}
-                  className="btn btn-warning rounded p-2 text-dark w-100"
+                  className="btn btn-warning rounded p-2 text-dark w-100 mb-2"
                 >
                   finalizar
                 </button>
@@ -265,7 +266,7 @@ function Question({
               <>
                 <button
                   onClick={onNextQuestions}
-                  className="btn btn-warning rounded p-2 text-dark w-100"
+                  className="btn btn-warning rounded p-2 text-dark w-100 mb-2"
                 >
                   siguiente pregunta
                 </button>
