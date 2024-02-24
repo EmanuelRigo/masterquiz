@@ -44,13 +44,14 @@
 .trophy__gold {
   font-size: 8rem;
   color: #f1e100;
-
-  filter: drop-shadow(0 0 25px #f1e100);
+  line-height: 1rem;
+  filter: drop-shadow(0 0 5px #f1e100) drop-shadow(0 0 20px #f1e100);
 }
 
 .trophy__silver {
   font-size: 8rem;
   color: #aaa;
+  line-height: 1rem;
 }
 
 @media screen and (max-width: 992px) {
