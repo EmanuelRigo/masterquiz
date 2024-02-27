@@ -171,7 +171,7 @@ function Question({
             )}
           </Col>
           <Col xs={12}>
-            <p className="text-light text-center mb-2 fs-6 custom-question ">
+            <p className="text-light text-center mb-0 fs-6 custom-question ">
               {filteredQuestion.question}
             </p>
           </Col>
@@ -181,7 +181,7 @@ function Question({
             {boardGame ? (
               <Col
                 xs={3}
-                className="rounded mx-auto  bg-warning p-3 mb-4 text-center"
+                className="rounded mx-auto  bg-warning p-3 my-4 text-center"
               >
                 <FaPlay
                   onClick={ejecutarContador}

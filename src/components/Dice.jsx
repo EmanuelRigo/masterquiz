@@ -9,6 +9,7 @@ import {
   CgDice6,
 } from "react-icons/cg";
 import { IoDiceOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function Dice() {
   const [dice, setDice] = useState(0);
@@ -61,19 +62,22 @@ function Dice() {
 
   return (
     <Row className=" flex-column align-items-center">
-      <Col className="text-center categorypage__icon">
+      <Col className="text-center categorypage__icon mb-5">
         <div className="text-light">{componente}</div>
       </Col>
 
       <Col>
         <Button
-          className="btn-warning w-100"
+          className="btn-warning w-100 mb-3"
           onClick={() => {
             setActivate(true);
           }}
         >
           Tirar dado
         </Button>
+        <Link to="/categorylist" className="btn btn-warning w-100">
+          Categorias
+        </Link>
       </Col>
     </Row>
   );
