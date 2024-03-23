@@ -479,5 +479,1708 @@
     "question": "¿Cuál de estos deportes no se juega con una pelota?",
     "correct_answer": "Natación",
     "incorrect_answers": ["Baloncesto", "Fútbol", "Tenis"]
+  },
+  {
+    "id": 61,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en reconocer la independencia de Estados Unidos?",
+    "correct_answer": "Francia",
+    "incorrect_answers": ["Reino Unido", "España", "Países Bajos"]
+  },
+  {
+    "id": 62,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año comenzó la Revolución Francesa?",
+    "correct_answer": "1789",
+    "incorrect_answers": ["1799", "1801", "1776"]
+  },
+  {
+    "id": 63,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el río más largo de América del Norte?",
+    "correct_answer": "Río Missouri",
+    "incorrect_answers": ["Río Misisipi", "Río Columbia", "Río Colorado"]
+  },
+  {
+    "id": 64,
+    "category": "historia-y-geografia",
+    "question": "¿Qué país es conocido como 'La Tierra del Sol Naciente'?",
+    "correct_answer": "Japón",
+    "incorrect_answers": ["China", "Corea del Sur", "India"]
+  },
+  {
+    "id": 65,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál era el nombre original de la ciudad de Estambul?",
+    "correct_answer": "Bizancio",
+    "incorrect_answers": ["Constantinopla", "Smyrna", "Atenas"]
+  },
+  {
+    "id": 66,
+    "category": "historia-y-geografia",
+    "question": "¿Quién fue el primer emperador romano?",
+    "correct_answer": "Augusto",
+    "incorrect_answers": ["Julio César", "Nerón", "Trajano"]
+  },
+  {
+    "id": 67,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el país más grande del mundo por área terrestre?",
+    "correct_answer": "Rusia",
+    "incorrect_answers": ["China", "Estados Unidos", "Canadá"]
+  },
+  {
+    "id": 68,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el desierto más grande del mundo?",
+    "correct_answer": "El Sahara",
+    "incorrect_answers": [
+      "El desierto de Gobi",
+      "El desierto de Atacama",
+      "El desierto del Kalahari"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "historia-y-geografia",
+    "question": "¿En qué continente se encuentra el país de Madagascar?",
+    "correct_answer": "África",
+    "incorrect_answers": ["Asia", "Europa", "Oceanía"]
+  },
+  {
+    "id": 70,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál era el nombre original de la ciudad de Mumbai?",
+    "correct_answer": "Bombay",
+    "incorrect_answers": ["Calcuta", "Nueva Delhi", "Chennai"]
+  },
+  {
+    "id": 71,
+    "category": "ciencia",
+    "question": "¿Cuál es el ácido presente en las naranjas?",
+    "correct_answer": "Ácido cítrico",
+    "incorrect_answers": ["Ácido ascórbico", "Ácido láctico", "Ácido acético"]
+  },
+  {
+    "id": 72,
+    "category": "ciencia",
+    "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "correct_answer": "Aluminio",
+    "incorrect_answers": ["Hierro", "Cobre", "Oro"]
+  },
+  {
+    "id": 73,
+    "category": "ciencia",
+    "question": "¿Cuál es el nombre común del compuesto químico H2O?",
+    "correct_answer": "Agua",
+    "incorrect_answers": ["Sal", "Ácido clorhídrico", "Metano"]
+  },
+  {
+    "id": 74,
+    "category": "ciencia",
+    "question": "¿Qué científico propuso la teoría de la relatividad?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": ["Isaac Newton", "Stephen Hawking", "Niels Bohr"]
+  },
+  {
+    "id": 75,
+    "category": "ciencia",
+    "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "correct_answer": "Fémur",
+    "incorrect_answers": ["Tibia", "Húmero", "Radio"]
+  },
+  {
+    "id": 76,
+    "category": "ciencia",
+    "question": "¿Qué vitamina es conocida como la 'vitamina del sol'?",
+    "correct_answer": "Vitamina D",
+    "incorrect_answers": ["Vitamina C", "Vitamina A", "Vitamina E"]
+  },
+  {
+    "id": 77,
+    "category": "ciencia",
+    "question": "¿Cuál es el elemento más abundante en el universo?",
+    "correct_answer": "Hidrógeno",
+    "incorrect_answers": ["Oxígeno", "Helio", "Carbono"]
+  },
+  {
+    "id": 78,
+    "category": "ciencia",
+    "question": "¿Cuál es el nombre común de la sustancia química NaCl?",
+    "correct_answer": "Sal de mesa",
+    "incorrect_answers": ["Azúcar", "Bicarbonato de sodio", "Vinagre"]
+  },
+  {
+    "id": 79,
+    "category": "ciencia",
+    "question": "¿Qué tipo de energía se produce a partir de la energía nuclear?",
+    "correct_answer": "Energía nuclear",
+    "incorrect_answers": [
+      "Energía solar",
+      "Energía eólica",
+      "Energía hidroeléctrica"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "ciencia",
+    "question": "¿Quién descubrió la estructura del ADN?",
+    "correct_answer": "James Watson y Francis Crick",
+    "incorrect_answers": [
+      "Gregor Mendel",
+      "Rosalind Franklin",
+      "Charles Darwin"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "espectaculo",
+    "question": "¿Quién interpretó a Tony Stark en la saga de películas de Marvel?",
+    "correct_answer": "Robert Downey Jr.",
+    "incorrect_answers": ["Chris Evans", "Chris Hemsworth", "Tom Holland"]
+  },
+  {
+    "id": 82,
+    "category": "espectaculo",
+    "question": "¿Cuál es la franquicia cinematográfica más taquillera de todos los tiempos?",
+    "correct_answer": "Marvel Cinematic Universe",
+    "incorrect_answers": ["Star Wars", "Harry Potter", "James Bond"]
+  },
+  {
+    "id": 83,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'Jurassic Park'?",
+    "correct_answer": "Steven Spielberg",
+    "incorrect_answers": ["James Cameron", "Christopher Nolan", "George Lucas"]
+  },
+  {
+    "id": 84,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpreta a Thor en el Universo Cinematográfico de Marvel?",
+    "correct_answer": "Chris Hemsworth",
+    "incorrect_answers": ["Tom Hiddleston", "Chris Evans", "Mark Ruffalo"]
+  },
+  {
+    "id": 85,
+    "category": "espectaculo",
+    "question": "¿Qué actor interpretó a Batman en la trilogía dirigida por Christopher Nolan?",
+    "correct_answer": "Christian Bale",
+    "incorrect_answers": ["Ben Affleck", "Michael Keaton", "George Clooney"]
+  },
+  {
+    "id": 86,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpreta a Jack Sparrow en la saga 'Piratas del Caribe'?",
+    "correct_answer": "Johnny Depp",
+    "incorrect_answers": ["Orlando Bloom", "Geoffrey Rush", "Javier Bardem"]
+  },
+  {
+    "id": 87,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'Avatar'?",
+    "correct_answer": "James Cameron",
+    "incorrect_answers": [
+      "Peter Jackson",
+      "Steven Spielberg",
+      "Christopher Nolan"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+    "correct_answer": "Robert Downey Jr.",
+    "incorrect_answers": ["Chris Evans", "Chris Hemsworth", "Tom Holland"]
+  },
+  {
+    "id": 89,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'Titanic'?",
+    "correct_answer": "James Cameron",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Quentin Tarantino"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpreta a Wolverine en las películas de X-Men?",
+    "correct_answer": "Hugh Jackman",
+    "incorrect_answers": ["Ryan Reynolds", "Patrick Stewart", "James McAvoy"]
+  },
+  {
+    "id": 91,
+    "category": "naturaleza",
+    "question": "¿Cuál es el árbol más alto del mundo?",
+    "correct_answer": "Secuoya gigante",
+    "incorrect_answers": ["Pino", "Abeto", "Eucalipto"]
+  },
+  {
+    "id": 92,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido por regenerar partes de su cuerpo si se pierden?",
+    "correct_answer": "Estrella de mar",
+    "incorrect_answers": ["Salamandra", "Cangrejo ermitaño", "Gecko"]
+  },
+  {
+    "id": 93,
+    "category": "naturaleza",
+    "question": "¿Cuál es la planta carnívora más grande del mundo?",
+    "correct_answer": "Nepenthes rajah",
+    "incorrect_answers": [
+      "Venus atrapamoscas",
+      "Drosera capensis",
+      "Sarracenia purpurea"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más venenoso del mundo?",
+    "correct_answer": "Medusa de caja",
+    "incorrect_answers": [
+      "Escorpión",
+      "Araña de rincón",
+      "Serpiente de cascabel"
+    ]
+  },
+  {
+    "id": 95,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido por cambiar de color para camuflarse?",
+    "correct_answer": "Camaleón",
+    "incorrect_answers": ["Pulpo", "Calamar", "Serpiente"]
+  },
+  {
+    "id": 96,
+    "category": "naturaleza",
+    "question": "¿Cuál es el reptil más grande del mundo?",
+    "correct_answer": "Cocodrilo de agua salada",
+    "incorrect_answers": ["Pitón reticulada", "Iguana verde", "Tortuga laúd"]
+  },
+  {
+    "id": 97,
+    "category": "naturaleza",
+    "question": "¿Cuál es el mamífero más grande del mundo?",
+    "correct_answer": "Ballena azul",
+    "incorrect_answers": ["Elefante africano", "Jirafa", "Rinoceronte blanco"]
+  },
+  {
+    "id": 98,
+    "category": "naturaleza",
+    "question": "¿Cuál es el ave más grande del mundo?",
+    "correct_answer": "Avestruz",
+    "incorrect_answers": ["Águila", "Cóndor", "Pelícano"]
+  },
+  {
+    "id": 99,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más rápido en tierra?",
+    "correct_answer": "Guepardo",
+    "incorrect_answers": ["Leopardo", "Antílope", "Liebre"]
+  },
+  {
+    "id": 100,
+    "category": "naturaleza",
+    "question": "¿Cuál es la flor nacional de Japón?",
+    "correct_answer": "Sakura",
+    "incorrect_answers": ["Loto", "Crisantemo", "Orquídea"]
+  },
+  {
+    "id": 101,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía química?",
+    "correct_answer": "Fotosíntesis",
+    "incorrect_answers": ["Respiración celular", "Transpiración", "Digestión"]
+  },
+  {
+    "id": 102,
+    "category": "ciencia",
+    "question": "¿Cuál es el componente principal de la atmósfera terrestre?",
+    "correct_answer": "Nitrógeno",
+    "incorrect_answers": ["Oxígeno", "Dióxido de carbono", "Argón"]
+  },
+  {
+    "id": 103,
+    "category": "ciencia",
+    "question": "¿Qué tipo de energía es la que posee un objeto debido a su movimiento?",
+    "correct_answer": "Energía cinética",
+    "incorrect_answers": [
+      "Energía potencial",
+      "Energía térmica",
+      "Energía electromagnética"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual se produce la fusión nuclear en el núcleo del Sol?",
+    "correct_answer": "Reacción de fusión de hidrógeno",
+    "incorrect_answers": [
+      "Reacción de fisión de uranio",
+      "Reacción de combustión",
+      "Reacción de síntesis"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "ciencia",
+    "question": "¿Cuál es la ley de la física que describe la atracción entre dos cuerpos debido a su masa?",
+    "correct_answer": "Ley de gravitación universal",
+    "incorrect_answers": [
+      "Ley de la conservación de la energía",
+      "Ley de la acción y la reacción",
+      "Ley de Coulomb"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "ciencia",
+    "question": "¿Cuál es el órgano del sistema respiratorio donde ocurre el intercambio gaseoso entre el oxígeno y el dióxido de carbono?",
+    "correct_answer": "Pulmones",
+    "incorrect_answers": ["Tráquea", "Faringe", "Bronquios"]
+  },
+  {
+    "id": 107,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual se transforma el vapor de agua en agua líquida?",
+    "correct_answer": "Condensación",
+    "incorrect_answers": ["Evaporación", "Sublimación", "Solidificación"]
+  },
+  {
+    "id": 108,
+    "category": "ciencia",
+    "question": "¿Cuál es la unidad básica de la estructura de la materia?",
+    "correct_answer": "Átomo",
+    "incorrect_answers": ["Molécula", "Célula", "Partícula elemental"]
+  },
+  {
+    "id": 109,
+    "category": "ciencia",
+    "question": "¿Qué fenómeno natural es responsable de la formación de un arcoíris?",
+    "correct_answer": "Reflexión y refracción de la luz en gotas de lluvia",
+    "incorrect_answers": [
+      "Actividad volcánica",
+      "Acción del viento en el agua",
+      "Interacción de partículas en la atmósfera"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "ciencia",
+    "question": "¿Qué ley de la física establece que la energía no puede ser creada ni destruida, solo transformada de una forma a otra?",
+    "correct_answer": "Primera ley de la termodinámica",
+    "incorrect_answers": [
+      "Ley de la gravedad",
+      "Ley de Newton",
+      "Ley de la conservación del momento"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
+    "correct_answer": "1919",
+    "incorrect_answers": ["1918", "1920", "1921"]
+  },
+  {
+    "id": 112,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue la primera civilización en la historia conocida?",
+    "correct_answer": "Civilización sumeria",
+    "incorrect_answers": [
+      "Civilización egipcia",
+      "Civilización china",
+      "Civilización del valle del Indo"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "historia-y-geografia",
+    "question": "¿Dónde se encuentra la Gran Muralla?",
+    "correct_answer": "China",
+    "incorrect_answers": ["Japón", "Corea del Sur", "India"]
+  },
+  {
+    "id": 114,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en enviar un ser humano al espacio?",
+    "correct_answer": "Unión Soviética",
+    "incorrect_answers": ["Estados Unidos", "China", "India"]
+  },
+  {
+    "id": 115,
+    "category": "historia-y-geografia",
+    "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
+    "correct_answer": "Perú",
+    "incorrect_answers": ["Ecuador", "Bolivia", "Colombia"]
+  },
+  {
+    "id": 116,
+    "category": "historia-y-geografia",
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "correct_answer": "George Washington",
+    "incorrect_answers": ["Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+  },
+  {
+    "id": 117,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue la capital del Imperio Romano?",
+    "correct_answer": "Roma",
+    "incorrect_answers": ["Atenas", "Alejandría", "Constantinopla"]
+  },
+  {
+    "id": 118,
+    "category": "historia-y-geografia",
+    "question": "¿En qué continente se encuentra el río Nilo?",
+    "correct_answer": "África",
+    "incorrect_answers": ["Asia", "Europa", "América del Sur"]
+  },
+  {
+    "id": 119,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "correct_answer": "Océano Pacífico",
+    "incorrect_answers": ["Océano Atlántico", "Océano Índico", "Océano Ártico"]
+  },
+  {
+    "id": 120,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "correct_answer": "Monte Everest",
+    "incorrect_answers": [
+      "Monte Kilimanjaro",
+      "Monte McKinley",
+      "Monte Aconcagua"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "espectaculo",
+    "question": "¿En qué película de Christopher Nolan aparece el personaje llamado 'Cobb'?",
+    "correct_answer": "Inception",
+    "incorrect_answers": ["Interstellar", "The Prestige", "Memento"]
+  },
+  {
+    "id": 122,
+    "category": "espectaculo",
+    "question": "¿Quién interpreta a Walter White en la serie de televisión 'Breaking Bad'?",
+    "correct_answer": "Bryan Cranston",
+    "incorrect_answers": ["Aaron Paul", "Bob Odenkirk", "Jonathan Banks"]
+  },
+  {
+    "id": 123,
+    "category": "espectaculo",
+    "question": "¿Quién fue el vocalista principal de la banda Queen?",
+    "correct_answer": "Freddie Mercury",
+    "incorrect_answers": ["David Bowie", "Elton John", "Mick Jagger"]
+  },
+  {
+    "id": 124,
+    "category": "espectaculo",
+    "question": "¿En qué año se estrenó la primera película de la saga 'Star Wars'?",
+    "correct_answer": "1977",
+    "incorrect_answers": ["1980", "1979", "1975"]
+  },
+  {
+    "id": 125,
+    "category": "espectaculo",
+    "question": "¿Cuál fue el primer álbum de estudio lanzado por The Beatles?",
+    "correct_answer": "Please Please Me",
+    "incorrect_answers": [
+      "Abbey Road",
+      "Sgt. Pepper's Lonely Hearts Club Band",
+      "Rubber Soul"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'The Shawshank Redemption'?",
+    "correct_answer": "Frank Darabont",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Martin Scorsese"
+    ]
+  },
+  {
+    "id": 127,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpretó a Jack Dawson en la película 'Titanic'?",
+    "correct_answer": "Leonardo DiCaprio",
+    "incorrect_answers": ["Tom Hanks", "Brad Pitt", "Matt Damon"]
+  },
+  {
+    "id": 128,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'The Dark Knight'?",
+    "correct_answer": "Christopher Nolan",
+    "incorrect_answers": ["Tim Burton", "Zack Snyder", "Joss Whedon"]
+  },
+  {
+    "id": 129,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'The Godfather'?",
+    "correct_answer": "Francis Ford Coppola",
+    "incorrect_answers": [
+      "Martin Scorsese",
+      "Alfred Hitchcock",
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "id": 130,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del guitarrista principal de la banda Rolling Stones?",
+    "correct_answer": "Keith Richards",
+    "incorrect_answers": ["Mick Jagger", "Ronnie Wood", "Charlie Watts"]
+  },
+  {
+    "id": 131,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más grande del mundo?",
+    "correct_answer": "La ballena azul",
+    "incorrect_answers": ["Elefante africano", "Girafa", "Tiburón ballena"]
+  },
+  {
+    "id": 132,
+    "category": "naturaleza",
+    "question": "¿Cuál es la montaña más alta fuera del sistema solar?",
+    "correct_answer": "El Monte Olimpo en Marte",
+    "incorrect_answers": [
+      "El Monte Everest en la Tierra",
+      "El Monte Kilimanjaro en la Tierra",
+      "El Monte Mauna Kea en Hawái"
+    ]
+  },
+  {
+    "id": 133,
+    "category": "naturaleza",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "correct_answer": "El río Amazonas",
+    "incorrect_answers": ["El río Nilo", "El río Yangtsé", "El río Mississippi"]
+  },
+  {
+    "id": 134,
+    "category": "naturaleza",
+    "question": "¿Cuál es la flor más grande del mundo?",
+    "correct_answer": "La flor de la Rafflesia",
+    "incorrect_answers": ["El girasol", "La orquídea", "La rosa"]
+  },
+  {
+    "id": 135,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido como el 'rey de la selva'?",
+    "correct_answer": "El león",
+    "incorrect_answers": ["El tigre", "El oso", "La pantera"]
+  },
+  {
+    "id": 136,
+    "category": "naturaleza",
+    "question": "¿Qué tipo de animal es el ornitorrinco?",
+    "correct_answer": "Un mamífero monotremado",
+    "incorrect_answers": ["Un reptil", "Un anfibio", "Un marsupial"]
+  },
+  {
+    "id": 137,
+    "category": "naturaleza",
+    "question": "¿Qué porcentaje de la Tierra está cubierto por agua?",
+    "correct_answer": "Aproximadamente el 71%",
+    "incorrect_answers": [
+      "Aproximadamente el 50%",
+      "Aproximadamente el 85%",
+      "Aproximadamente el 30%"
+    ]
+  },
+  {
+    "id": 138,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más rápido del mundo?",
+    "correct_answer": "El guepardo",
+    "incorrect_answers": ["El halcón peregrino", "El antílope", "La liebre"]
+  },
+  {
+    "id": 139,
+    "category": "naturaleza",
+    "question": "¿Cuál es el ave más grande del mundo?",
+    "correct_answer": "El avestruz",
+    "incorrect_answers": ["El águila", "El cóndor", "El albatros"]
+  },
+  {
+    "id": 140,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más venenoso del mundo?",
+    "correct_answer": "La medusa caja",
+    "incorrect_answers": [
+      "La serpiente de cascabel",
+      "El escorpión",
+      "La araña de Sídney"
+    ]
+  },
+  {
+    "id": 141,
+    "category": "naturaleza",
+    "question": "¿Qué árbol se conoce como el árbol de la vida y es un símbolo de la sabana africana?",
+    "correct_answer": "El baobab",
+    "incorrect_answers": ["El roble", "El sauce llorón", "El ciprés"]
+  },
+  {
+    "id": 142,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el nombre del océano que rodea la Antártida?",
+    "correct_answer": "Océano Austral",
+    "incorrect_answers": [
+      "Océano Pacífico",
+      "Océano Atlántico",
+      "Océano Índico"
+    ]
+  },
+  {
+    "id": 143,
+    "category": "historia-y-geografia",
+    "question": "¿Qué país fue el primero en alcanzar la independencia en América Latina?",
+    "correct_answer": "Haití",
+    "incorrect_answers": ["México", "Argentina", "Colombia"]
+  },
+  {
+    "id": 144,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+    "correct_answer": "1776",
+    "incorrect_answers": ["1789", "1800", "1812"]
+  },
+  {
+    "id": 145,
+    "category": "historia-y-geografia",
+    "question": "¿Quién fue el primer presidente de México?",
+    "correct_answer": "Guadalupe Victoria",
+    "incorrect_answers": [
+      "Benito Juárez",
+      "Antonio López de Santa Anna",
+      "Vicente Guerrero"
+    ]
+  },
+  {
+    "id": 146,
+    "category": "ciencia",
+    "question": "¿Qué científico formuló la teoría de la relatividad?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": ["Isaac Newton", "Stephen Hawking", "Niels Bohr"]
+  },
+  {
+    "id": 147,
+    "category": "ciencia",
+    "question": "¿Cuál es el componente principal del núcleo de un átomo?",
+    "correct_answer": "Protón",
+    "incorrect_answers": ["Electrón", "Neutrón", "Positrón"]
+  },
+  {
+    "id": 148,
+    "category": "ciencia",
+    "question": "¿Qué tipo de energía se produce en las centrales nucleares?",
+    "correct_answer": "Energía nuclear",
+    "incorrect_answers": [
+      "Energía solar",
+      "Energía eólica",
+      "Energía hidroeléctrica"
+    ]
+  },
+  {
+    "id": 149,
+    "category": "ciencia",
+    "question": "¿Qué planeta del sistema solar es conocido como el 'planeta rojo'?",
+    "correct_answer": "Marte",
+    "incorrect_answers": ["Venus", "Júpiter", "Mercurio"]
+  },
+  {
+    "id": 150,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'Jurassic Park'?",
+    "correct_answer": "Steven Spielberg",
+    "incorrect_answers": ["George Lucas", "James Cameron", "Christopher Nolan"]
+  },
+  {
+    "id": 151,
+    "category": "espectaculo",
+    "question": "¿Qué banda de rock británica lanzó el álbum 'The Wall'?",
+    "correct_answer": "Pink Floyd",
+    "incorrect_answers": ["Led Zeppelin", "The Beatles", "Queen"]
+  },
+  {
+    "id": 152,
+    "category": "espectaculo",
+    "question": "¿En qué año se estrenó la película 'The Matrix'?",
+    "correct_answer": "1999",
+    "incorrect_answers": ["2001", "1997", "2000"]
+  },
+  {
+    "id": 153,
+    "category": "espectaculo",
+    "question": "¿Quién interpretó el papel de Hermione Granger en las películas de 'Harry Potter'?",
+    "correct_answer": "Emma Watson",
+    "incorrect_answers": ["Emma Stone", "Emma Roberts", "Emma Thompson"]
+  },
+  {
+    "id": 154,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Quién es el creador del manga 'One Piece'?",
+    "correct_answer": "Eiichiro Oda",
+    "incorrect_answers": ["Akira Toriyama", "Masashi Kishimoto", "Tite Kubo"]
+  },
+  {
+    "id": 155,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el nombre del protagonista en la serie de videojuegos 'Metal Gear Solid'?",
+    "correct_answer": "Solid Snake",
+    "incorrect_answers": ["Liquid Snake", "Big Boss", "Gray Fox"]
+  },
+  {
+    "id": 156,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Quién es el director de la película de animación 'El viaje de Chihiro'?",
+    "correct_answer": "Hayao Miyazaki",
+    "incorrect_answers": ["Isao Takahata", "Mamoru Hosoda", "Makoto Shinkai"]
+  },
+  {
+    "id": 157,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿En qué videojuego el jugador controla a un personaje llamado 'Samus Aran'?",
+    "correct_answer": "Metroid",
+    "incorrect_answers": ["Halo", "The Legend of Zelda", "Resident Evil"]
+  },
+  {
+    "id": 158,
+    "category": "deporte",
+    "question": "¿Quién es el máximo goleador en la historia de la Copa Mundial de la FIFA?",
+    "correct_answer": "Miroslav Klose",
+    "incorrect_answers": ["Pele", "Diego Maradona", "Ronaldo Nazário"]
+  },
+  {
+    "id": 159,
+    "category": "deporte",
+    "question": "¿En qué deporte se juega la Copa Davis?",
+    "correct_answer": "Tenis",
+    "incorrect_answers": ["Golf", "Baloncesto", "Fútbol"]
+  },
+  {
+    "id": 160,
+    "category": "deporte",
+    "question": "¿Cuál es el equipo de fútbol más antiguo de España?",
+    "correct_answer": "Recreativo de Huelva",
+    "incorrect_answers": [
+      "Real Madrid",
+      "FC Barcelona",
+      "Athletic Club de Bilbao"
+    ]
+  },
+  {
+    "id": 161,
+    "category": "deporte",
+    "question": "¿Qué equipo ganó la primera edición de la Copa Libertadores de América?",
+    "correct_answer": "Club Atlético Independiente",
+    "incorrect_answers": ["Boca Juniors", "River Plate", "Peñarol"]
+  },
+  {
+    "id": 162,
+    "category": "naturaleza",
+    "question": "¿Cuál es el ave más grande del mundo?",
+    "correct_answer": "El avestruz",
+    "incorrect_answers": ["El águila", "El cóndor", "El albatros"]
+  },
+  {
+    "id": 163,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido como el 'rey de la selva'?",
+    "correct_answer": "El león",
+    "incorrect_answers": ["El tigre", "El oso", "El jaguar"]
+  },
+  {
+    "id": 164,
+    "category": "naturaleza",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "correct_answer": "El río Amazonas",
+    "incorrect_answers": ["El río Nilo", "El río Yangtsé", "El río Mississippi"]
+  },
+  {
+    "id": 165,
+    "category": "naturaleza",
+    "question": "¿Cuál es la flor nacional de Japón?",
+    "correct_answer": "La flor de cerezo",
+    "incorrect_answers": ["La peonía", "La orquídea", "El loto"]
+  },
+  {
+    "id": 166,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido por migrar largas distancias cada año?",
+    "correct_answer": "El charrán ártico",
+    "incorrect_answers": ["El cuervo", "El pingüino emperador", "El pato"]
+  },
+  {
+    "id": 167,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en enviar un ser humano al espacio?",
+    "correct_answer": "Unión Soviética",
+    "incorrect_answers": ["Estados Unidos", "China", "India"]
+  },
+  {
+    "id": 168,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
+    "correct_answer": "1919",
+    "incorrect_answers": ["1918", "1920", "1921"]
+  },
+  {
+    "id": 169,
+    "category": "historia-y-geografia",
+    "question": "¿Dónde se encuentra la ciudad de Machu Picchu?",
+    "correct_answer": "Perú",
+    "incorrect_answers": ["Ecuador", "Bolivia", "Colombia"]
+  },
+  {
+    "id": 170,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue la primera civilización en la historia conocida?",
+    "correct_answer": "Civilización sumeria",
+    "incorrect_answers": [
+      "Civilización egipcia",
+      "Civilización china",
+      "Civilización del valle del Indo"
+    ]
+  },
+  {
+    "id": 171,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "correct_answer": "Océano Pacífico",
+    "incorrect_answers": ["Océano Atlántico", "Océano Índico", "Océano Ártico"]
+  },
+  {
+    "id": 172,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual se produce la fusión nuclear en el núcleo del Sol?",
+    "correct_answer": "Reacción de fusión de hidrógeno",
+    "incorrect_answers": [
+      "Reacción de fisión de uranio",
+      "Reacción de combustión",
+      "Reacción de síntesis"
+    ]
+  },
+  {
+    "id": 173,
+    "category": "ciencia",
+    "question": "¿Qué órgano del sistema respiratorio humano contiene las cuerdas vocales?",
+    "correct_answer": "La laringe",
+    "incorrect_answers": ["La tráquea", "Los bronquios", "Los pulmones"]
+  },
+  {
+    "id": 174,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual el agua líquida se convierte en vapor?",
+    "correct_answer": "Evaporación",
+    "incorrect_answers": ["Condensación", "Sublimación", "Solidificación"]
+  },
+  {
+    "id": 175,
+    "category": "ciencia",
+    "question": "¿Cuál es el componente más abundante en la atmósfera terrestre?",
+    "correct_answer": "Nitrógeno",
+    "incorrect_answers": ["Oxígeno", "Dióxido de carbono", "Argón"]
+  },
+  {
+    "id": 176,
+    "category": "ciencia",
+    "question": "¿Qué fenómeno natural produce un eclipse solar?",
+    "correct_answer": "Cuando la Luna bloquea la luz del Sol",
+    "incorrect_answers": [
+      "Cuando la Tierra bloquea la luz del Sol",
+      "Cuando Marte bloquea la luz del Sol",
+      "Cuando un planeta desconocido bloquea la luz del Sol"
+    ]
+  },
+  {
+    "id": 177,
+    "category": "ciencia",
+    "question": "¿Cuál es la velocidad de la luz en el vacío?",
+    "correct_answer": "299,792,458 metros por segundo",
+    "incorrect_answers": [
+      "100,000,000 metros por segundo",
+      "500,000,000 metros por segundo",
+      "1,000,000,000 metros por segundo"
+    ]
+  },
+  {
+    "id": 178,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'El Padrino'?",
+    "correct_answer": "Francis Ford Coppola",
+    "incorrect_answers": [
+      "Martin Scorsese",
+      "Quentin Tarantino",
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "id": 179,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpreta a Tony Stark en la saga de películas de Marvel?",
+    "correct_answer": "Robert Downey Jr.",
+    "incorrect_answers": ["Chris Hemsworth", "Chris Evans", "Mark Ruffalo"]
+  },
+  {
+    "id": 180,
+    "category": "espectaculo",
+    "question": "¿Qué cantante es conocido como 'El Rey del Pop'?",
+    "correct_answer": "Michael Jackson",
+    "incorrect_answers": ["Elvis Presley", "Prince", "Madonna"]
+  },
+  {
+    "id": 181,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'El Señor de los Anillos'?",
+    "correct_answer": "Peter Jackson",
+    "incorrect_answers": [
+      "Christopher Nolan",
+      "James Cameron",
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "id": 182,
+    "category": "espectaculo",
+    "question": "¿Cuál es la banda de rock más vendida de todos los tiempos?",
+    "correct_answer": "The Beatles",
+    "incorrect_answers": ["Queen", "Led Zeppelin", "The Rolling Stones"]
+  },
+  {
+    "id": 183,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'Avatar'?",
+    "correct_answer": "James Cameron",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Peter Jackson"
+    ]
+  },
+  {
+    "id": 184,
+    "category": "deporte",
+    "question": "¿Cuál es el deporte más popular en Estados Unidos?",
+    "correct_answer": "Fútbol americano",
+    "incorrect_answers": ["Béisbol", "Baloncesto", "Hockey sobre hielo"]
+  },
+  {
+    "id": 185,
+    "category": "deporte",
+    "question": "¿Cuál es el único deporte que se juega en la Luna?",
+    "correct_answer": "Golf",
+    "incorrect_answers": ["Tenis", "Fútbol", "Baloncesto"]
+  },
+  {
+    "id": 186,
+    "category": "deporte",
+    "question": "¿En qué país se originó el deporte del rugby?",
+    "correct_answer": "Reino Unido",
+    "incorrect_answers": ["Australia", "Nueva Zelanda", "Estados Unidos"]
+  },
+  {
+    "id": 187,
+    "category": "deporte",
+    "question": "¿Cuál es el deporte nacional de Canadá?",
+    "correct_answer": "Hockey sobre hielo",
+    "incorrect_answers": ["Fútbol", "Béisbol", "Esquí alpino"]
+  },
+  {
+    "id": 188,
+    "category": "deporte",
+    "question": "¿Qué equipo ganó la Copa Mundial de la FIFA en 2014?",
+    "correct_answer": "Alemania",
+    "incorrect_answers": ["Argentina", "Brasil", "España"]
+  },
+  {
+    "id": 189,
+    "category": "deporte",
+    "question": "¿Cuál es el único deporte que se juega exclusivamente en el hielo?",
+    "correct_answer": "Curling",
+    "incorrect_answers": [
+      "Patinaje artístico",
+      "Hockey sobre hielo",
+      "Patinaje de velocidad"
+    ]
+  },
+  {
+    "id": 190,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿En qué año se lanzó el primer videojuego de la serie 'Pokémon'?",
+    "correct_answer": "1996",
+    "incorrect_answers": ["1998", "1999", "2000"]
+  },
+  {
+    "id": 191,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Quién es el creador del manga 'Dragon Ball'?",
+    "correct_answer": "Akira Toriyama",
+    "incorrect_answers": ["Masashi Kishimoto", "Eiichiro Oda", "Hirohiko Araki"]
+  },
+  {
+    "id": 192,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el videojuego más vendido de la historia?",
+    "correct_answer": "Minecraft",
+    "incorrect_answers": ["Tetris", "Grand Theft Auto V", "Wii Sports"]
+  },
+  {
+    "id": 193,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el nombre del protagonista en el anime 'One Piece'?",
+    "correct_answer": "Monkey D. Luffy",
+    "incorrect_answers": ["Roronoa Zoro", "Nami", "Usopp"]
+  },
+  {
+    "id": 194,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿En qué videojuego se introdujo por primera vez el personaje de Mario?",
+    "correct_answer": "Donkey Kong",
+    "incorrect_answers": [
+      "Super Mario Bros.",
+      "Mario Kart",
+      "The Legend of Zelda"
+    ]
+  },
+  {
+    "id": 195,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Quién es el creador del manga 'One Punch Man'?",
+    "correct_answer": "ONE",
+    "incorrect_answers": ["Yusuke Murata", "Eiichiro Oda", "Masashi Kishimoto"]
+  },
+  {
+    "id": 196,
+    "category": "deporte",
+    "question": "¿Cuál es el deporte más popular en India?",
+    "correct_answer": "Críquet",
+    "incorrect_answers": ["Hockey sobre hierba", "Fútbol", "Tenis"]
+  },
+  {
+    "id": 197,
+    "category": "deporte",
+    "question": "¿Cuál es la duración típica de un partido de fútbol?",
+    "correct_answer": "90 minutos",
+    "incorrect_answers": ["60 minutos", "120 minutos", "45 minutos"]
+  },
+  {
+    "id": 198,
+    "category": "deporte",
+    "question": "¿Cuál es el récord mundial de velocidad máxima alcanzada por un ser humano?",
+    "correct_answer": "Usain Bolt - 44.72 km/h",
+    "incorrect_answers": [
+      "Michael Johnson - 38.18 km/h",
+      "Tyreek Hill - 43.20 km/h",
+      "Cristiano Ronaldo - 38.6 km/h"
+    ]
+  },
+  {
+    "id": 199,
+    "category": "deporte",
+    "question": "¿En qué país se originó el deporte del bádminton?",
+    "correct_answer": "India",
+    "incorrect_answers": ["China", "Indonesia", "Inglaterra"]
+  },
+  {
+    "id": 200,
+    "category": "deporte",
+    "question": "¿Cuál es el único deporte que se juega en todos los países del mundo?",
+    "correct_answer": "Fútbol",
+    "incorrect_answers": ["Baloncesto", "Atletismo", "Natación"]
+  },
+  {
+    "id": 201,
+    "category": "deporte",
+    "question": "¿En qué año se fundó el Comité Olímpico Internacional?",
+    "correct_answer": "1894",
+    "incorrect_answers": ["1900", "1888", "1912"]
+  },
+  {
+    "id": 202,
+    "category": "deporte",
+    "question": "¿Cuál es el récord mundial en salto de altura masculino?",
+    "correct_answer": "2.45 metros",
+    "incorrect_answers": ["2.42 metros", "2.50 metros", "2.38 metros"]
+  },
+  {
+    "id": 203,
+    "category": "deporte",
+    "question": "¿Cuál es el país más exitoso en la historia de los Juegos Olímpicos de Invierno?",
+    "correct_answer": "Noruega",
+    "incorrect_answers": ["Estados Unidos", "Rusia", "Canadá"]
+  },
+  {
+    "id": 204,
+    "category": "deporte",
+    "question": "¿Qué deporte es conocido como 'el deporte rey'?",
+    "correct_answer": "Fútbol",
+    "incorrect_answers": ["Baloncesto", "Atletismo", "Golf"]
+  },
+  {
+    "id": 205,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el primer videojuego en la serie 'Metal Gear Solid'?",
+    "correct_answer": "Metal Gear Solid",
+    "incorrect_answers": [
+      "Metal Gear",
+      "Metal Gear 2: Solid Snake",
+      "Metal Gear Solid 2: Sons of Liberty"
+    ]
+  },
+  {
+    "id": 206,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el nombre del antagonista principal en la serie de videojuegos 'Final Fantasy'?",
+    "correct_answer": "Sephiroth",
+    "incorrect_answers": ["Kefka Palazzo", "Kuja", "Golbez"]
+  },
+  {
+    "id": 207,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Qué compañía desarrolló el videojuego 'The Legend of Zelda: Breath of the Wild'?",
+    "correct_answer": "Nintendo",
+    "incorrect_answers": ["Sony", "Microsoft", "Sega"]
+  },
+  {
+    "id": 208,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿En qué año se lanzó el videojuego 'Super Mario Bros.'?",
+    "correct_answer": "1985",
+    "incorrect_answers": ["1983", "1988", "1990"]
+  },
+  {
+    "id": 209,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Quién es el autor del manga 'Naruto'?",
+    "correct_answer": "Masashi Kishimoto",
+    "incorrect_answers": ["Eiichiro Oda", "Akira Toriyama", "Tite Kubo"]
+  },
+  {
+    "id": 210,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Qué estudio de animación produjo el anime 'Dragon Ball Z'?",
+    "correct_answer": "Toei Animation",
+    "incorrect_answers": ["Studio Ghibli", "Madhouse", "Kyoto Animation"]
+  },
+  {
+    "id": 211,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el nombre del protagonista en el videojuego 'The Witcher 3: Wild Hunt'?",
+    "correct_answer": "Geralt de Rivia",
+    "incorrect_answers": ["Ciri", "Triss Merigold", "Yennefer"]
+  },
+  {
+    "id": 212,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿En qué videojuego se introdujo por primera vez el personaje de Mario?",
+    "correct_answer": "Donkey Kong (1981)",
+    "incorrect_answers": [
+      "Super Mario Bros. (1985)",
+      "Mario Bros. (1983)",
+      "Donkey Kong Jr. (1982)"
+    ]
+  },
+  {
+    "id": 213,
+    "category": "videojuegos-comics-y-anime",
+    "question": "¿Cuál es el nombre del arma principal en la serie de videojuegos 'Halo'?",
+    "correct_answer": "El Rifle de Asalto MA5D",
+    "incorrect_answers": ["Mjolnir", "Covenant Carbine", "BR55"]
+  },
+  {
+    "id": 214,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se produjo la Revolución Rusa?",
+    "correct_answer": "1917",
+    "incorrect_answers": ["1905", "1921", "1932"]
+  },
+  {
+    "id": 215,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en conceder el derecho al voto a las mujeres?",
+    "correct_answer": "Nueva Zelanda",
+    "incorrect_answers": ["Estados Unidos", "Reino Unido", "Suecia"]
+  },
+  {
+    "id": 216,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en llegar a la Luna?",
+    "correct_answer": "Estados Unidos",
+    "incorrect_answers": ["Rusia", "China", "Reino Unido"]
+  },
+  {
+    "id": 217,
+    "category": "historia-y-geografia",
+    "question": "¿En qué ciudad fue asesinado el presidente de Estados Unidos John F. Kennedy?",
+    "correct_answer": "Dallas",
+    "incorrect_answers": ["Los Ángeles", "Nueva York", "Chicago"]
+  },
+  {
+    "id": 218,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el último emperador de Rusia?",
+    "correct_answer": "Nicolás II",
+    "incorrect_answers": ["Alejandro II", "Pedro el Grande", "Iván IV"]
+  },
+  {
+    "id": 219,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el país más grande del mundo en términos de área terrestre?",
+    "correct_answer": "Rusia",
+    "incorrect_answers": ["Canadá", "China", "Estados Unidos"]
+  },
+  {
+    "id": 220,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+    "correct_answer": "1776",
+    "incorrect_answers": ["1789", "1796", "1765"]
+  },
+  {
+    "id": 221,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál era la capital del Imperio Bizantino?",
+    "correct_answer": "Constantinopla",
+    "incorrect_answers": ["Atenas", "Roma", "Alejandría"]
+  },
+  {
+    "id": 222,
+    "category": "ciencia",
+    "question": "¿Cuál es el nombre de la partícula subatómica con carga negativa?",
+    "correct_answer": "Electrón",
+    "incorrect_answers": ["Protón", "Neutrón", "Positrón"]
+  },
+  {
+    "id": 223,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual las plantas liberan oxígeno?",
+    "correct_answer": "Fotosíntesis",
+    "incorrect_answers": ["Respiración", "Transpiración", "Digestión"]
+  },
+  {
+    "id": 224,
+    "category": "ciencia",
+    "question": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+    "correct_answer": "Oxígeno",
+    "incorrect_answers": ["Hierro", "Silicio", "Aluminio"]
+  },
+  {
+    "id": 225,
+    "category": "ciencia",
+    "question": "¿Cuál es la velocidad de la luz en el vacío?",
+    "correct_answer": "299,792,458 metros por segundo",
+    "incorrect_answers": [
+      "300,000,000 metros por segundo",
+      "200,000,000 metros por segundo",
+      "250,000,000 metros por segundo"
+    ]
+  },
+  {
+    "id": 226,
+    "category": "ciencia",
+    "question": "¿Quién propuso la teoría de la relatividad?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": ["Isaac Newton", "Stephen Hawking", "Galileo Galilei"]
+  },
+  {
+    "id": 227,
+    "category": "ciencia",
+    "question": "¿Cuál es el ácido presente en las naranjas y limones?",
+    "correct_answer": "Ácido cítrico",
+    "incorrect_answers": ["Ácido ascórbico", "Ácido acético", "Ácido sulfúrico"]
+  },
+  {
+    "id": 228,
+    "category": "ciencia",
+    "question": "¿Cuál es la enfermedad causada por la deficiencia de vitamina C?",
+    "correct_answer": "Escorbuto",
+    "incorrect_answers": ["Anemia", "Beriberi", "Raquitismo"]
+  },
+  {
+    "id": 229,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso por el cual las células se dividen y multiplican?",
+    "correct_answer": "Mitosis",
+    "incorrect_answers": ["Meiosis", "Fotosíntesis", "Respiración"]
+  },
+  {
+    "id": 230,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se produjo la Revolución Rusa?",
+    "correct_answer": "1917",
+    "incorrect_answers": ["1905", "1921", "1932"]
+  },
+  {
+    "id": 231,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en conceder el derecho al voto a las mujeres?",
+    "correct_answer": "Nueva Zelanda",
+    "incorrect_answers": ["Estados Unidos", "Reino Unido", "Suecia"]
+  },
+  {
+    "id": 232,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el primer país en llegar a la Luna?",
+    "correct_answer": "Estados Unidos",
+    "incorrect_answers": ["Rusia", "China", "Reino Unido"]
+  },
+  {
+    "id": 233,
+    "category": "historia-y-geografia",
+    "question": "¿En qué ciudad fue asesinado el presidente de Estados Unidos John F. Kennedy?",
+    "correct_answer": "Dallas",
+    "incorrect_answers": ["Los Ángeles", "Nueva York", "Chicago"]
+  },
+  {
+    "id": 234,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el último emperador de Rusia?",
+    "correct_answer": "Nicolás II",
+    "incorrect_answers": ["Alejandro II", "Pedro el Grande", "Iván IV"]
+  },
+  {
+    "id": 235,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el país más grande del mundo en términos de área terrestre?",
+    "correct_answer": "Rusia",
+    "incorrect_answers": ["Canadá", "China", "Estados Unidos"]
+  },
+  {
+    "id": 236,
+    "category": "historia-y-geografia",
+    "question": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+    "correct_answer": "1776",
+    "incorrect_answers": ["1789", "1796", "1765"]
+  },
+  {
+    "id": 237,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál era la capital del Imperio Bizantino?",
+    "correct_answer": "Constantinopla",
+    "incorrect_answers": ["Atenas", "Roma", "Alejandría"]
+  },
+  {
+    "id": 238,
+    "category": "ciencia",
+    "question": "¿Cuál es el nombre de la partícula subatómica con carga negativa?",
+    "correct_answer": "Electrón",
+    "incorrect_answers": ["Protón", "Neutrón", "Positrón"]
+  },
+  {
+    "id": 239,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual las plantas liberan oxígeno?",
+    "correct_answer": "Fotosíntesis",
+    "incorrect_answers": ["Respiración", "Transpiración", "Digestión"]
+  },
+  {
+    "id": 240,
+    "category": "ciencia",
+    "question": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+    "correct_answer": "Oxígeno",
+    "incorrect_answers": ["Hierro", "Silicio", "Aluminio"]
+  },
+  {
+    "id": 241,
+    "category": "ciencia",
+    "question": "¿Cuál es la velocidad de la luz en el vacío?",
+    "correct_answer": "299,792,458 metros por segundo",
+    "incorrect_answers": [
+      "300,000,000 metros por segundo",
+      "200,000,000 metros por segundo",
+      "250,000,000 metros por segundo"
+    ]
+  },
+  {
+    "id": 242,
+    "category": "ciencia",
+    "question": "¿Quién propuso la teoría de la relatividad?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": ["Isaac Newton", "Stephen Hawking", "Galileo Galilei"]
+  },
+  {
+    "id": 243,
+    "category": "ciencia",
+    "question": "¿Cuál es el ácido presente en las naranjas y limones?",
+    "correct_answer": "Ácido cítrico",
+    "incorrect_answers": ["Ácido ascórbico", "Ácido acético", "Ácido sulfúrico"]
+  },
+  {
+    "id": 244,
+    "category": "ciencia",
+    "question": "¿Cuál es la enfermedad causada por la deficiencia de vitamina C?",
+    "correct_answer": "Escorbuto",
+    "incorrect_answers": ["Anemia", "Beriberi", "Raquitismo"]
+  },
+  {
+    "id": 245,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso por el cual las células se dividen y multiplican?",
+    "correct_answer": "Mitosis",
+    "incorrect_answers": ["Meiosis", "Fotosíntesis", "Respiración"]
+  },
+  {
+    "id": 254,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue la batalla que marcó el fin de la Segunda Guerra Mundial en Europa?",
+    "correct_answer": "Batalla de Berlín",
+    "incorrect_answers": [
+      "Batalla de Stalingrado",
+      "Batalla de Normandía",
+      "Batalla de Midway"
+    ]
+  },
+  {
+    "id": 255,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "correct_answer": "Ciudad del Vaticano",
+    "incorrect_answers": ["Mónaco", "San Marino", "Nauru"]
+  },
+  {
+    "id": 256,
+    "category": "historia-y-geografia",
+    "question": "¿Quién fue el primer explorador en circunnavegar la Tierra?",
+    "correct_answer": "Fernando de Magallanes",
+    "incorrect_answers": [
+      "Vasco da Gama",
+      "Cristóbal Colón",
+      "Juan Sebastián Elcano"
+    ]
+  },
+  {
+    "id": 257,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el país más poblado del mundo?",
+    "correct_answer": "China",
+    "incorrect_answers": ["India", "Estados Unidos", "Indonesia"]
+  },
+  {
+    "id": 258,
+    "category": "historia-y-geografia",
+    "question": "¿Qué país europeo tiene forma de bota?",
+    "correct_answer": "Italia",
+    "incorrect_answers": ["España", "Francia", "Alemania"]
+  },
+  {
+    "id": 259,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "correct_answer": "El río Amazonas",
+    "incorrect_answers": ["El río Nilo", "El río Yangtsé", "El río Mississippi"]
+  },
+  {
+    "id": 260,
+    "category": "historia-y-geografia",
+    "question": "¿Cuál fue el último emperador de China?",
+    "correct_answer": "Pu Yi",
+    "incorrect_answers": ["Mao Zedong", "Sun Yat-sen", "Chiang Kai-shek"]
+  },
+  {
+    "id": 261,
+    "category": "historia-y-geografia",
+    "question": "¿En qué continente se encuentra el río Misisipi?",
+    "correct_answer": "América del Norte",
+    "incorrect_answers": ["Europa", "América del Sur", "África"]
+  },
+  {
+    "id": 262,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía química?",
+    "correct_answer": "Fotosíntesis",
+    "incorrect_answers": ["Respiración celular", "Transpiración", "Digestión"]
+  },
+  {
+    "id": 263,
+    "category": "ciencia",
+    "question": "¿Cuál es el componente principal de la atmósfera terrestre?",
+    "correct_answer": "Nitrógeno",
+    "incorrect_answers": ["Oxígeno", "Dióxido de carbono", "Argón"]
+  },
+  {
+    "id": 264,
+    "category": "ciencia",
+    "question": "¿Cuál es el órgano del sistema respiratorio donde ocurre el intercambio gaseoso entre el oxígeno y el dióxido de carbono?",
+    "correct_answer": "Pulmones",
+    "incorrect_answers": ["Tráquea", "Faringe", "Bronquios"]
+  },
+  {
+    "id": 265,
+    "category": "ciencia",
+    "question": "¿Cuál es el proceso mediante el cual se transforma el vapor de agua en agua líquida?",
+    "correct_answer": "Condensación",
+    "incorrect_answers": ["Evaporación", "Sublimación", "Solidificación"]
+  },
+  {
+    "id": 266,
+    "category": "ciencia",
+    "question": "¿Cuál es el animal más rápido del mundo?",
+    "correct_answer": "El guepardo",
+    "incorrect_answers": ["El halcón peregrino", "El avestruz", "El leopardo"]
+  },
+  {
+    "id": 267,
+    "category": "ciencia",
+    "question": "¿Qué es el nombre común de la especie de árbol 'Sequoia sempervirens'?",
+    "correct_answer": "Secuoya roja",
+    "incorrect_answers": ["Pino", "Cedro", "Olivo"]
+  },
+  {
+    "id": 268,
+    "category": "ciencia",
+    "question": "¿Qué fenómeno natural es responsable de la formación de un arcoíris?",
+    "correct_answer": "Reflexión y refracción de la luz en gotas de lluvia",
+    "incorrect_answers": [
+      "Actividad volcánica",
+      "Acción del viento en el agua",
+      "Interacción de partículas en la atmósfera"
+    ]
+  },
+  {
+    "id": 269,
+    "category": "ciencia",
+    "question": "¿Cuál es la ley de la física que describe la atracción entre dos cuerpos debido a su masa?",
+    "correct_answer": "Ley de gravitación universal",
+    "incorrect_answers": [
+      "Ley de la conservación de la energía",
+      "Ley de la acción y la reacción",
+      "Ley de Coulomb"
+    ]
+  },
+  {
+    "id": 270,
+    "category": "espectaculo",
+    "question": "¿En qué película de Christopher Nolan aparece el personaje llamado 'Cobb'?",
+    "correct_answer": "Inception",
+    "incorrect_answers": ["Interstellar", "The Prestige", "Memento"]
+  },
+  {
+    "id": 271,
+    "category": "espectaculo",
+    "question": "¿Quién interpreta a Walter White en la serie de televisión 'Breaking Bad'?",
+    "correct_answer": "Bryan Cranston",
+    "incorrect_answers": ["Aaron Paul", "Bob Odenkirk", "Jonathan Banks"]
+  },
+  {
+    "id": 272,
+    "category": "espectaculo",
+    "question": "¿Quién fue el vocalista principal de la banda Queen?",
+    "correct_answer": "Freddie Mercury",
+    "incorrect_answers": ["David Bowie", "Elton John", "Mick Jagger"]
+  },
+  {
+    "id": 273,
+    "category": "espectaculo",
+    "question": "¿En qué año se estrenó la primera película de la saga 'Star Wars'?",
+    "correct_answer": "1977",
+    "incorrect_answers": ["1980", "1979", "1975"]
+  },
+  {
+    "id": 274,
+    "category": "espectaculo",
+    "question": "¿Cuál fue el primer álbum de estudio lanzado por The Beatles?",
+    "correct_answer": "Please Please Me",
+    "incorrect_answers": [
+      "Abbey Road",
+      "Sgt. Pepper's Lonely Hearts Club Band",
+      "Rubber Soul"
+    ]
+  },
+  {
+    "id": 275,
+    "category": "espectaculo",
+    "question": "¿Quién dirigió la película 'The Shawshank Redemption'?",
+    "correct_answer": "Frank Darabont",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Martin Scorsese"
+    ]
+  },
+  {
+    "id": 276,
+    "category": "espectaculo",
+    "question": "¿Cuál es el nombre del actor que interpretó a Jack Dawson en la película 'Titanic'?",
+    "correct_answer": "Leonardo DiCaprio",
+    "incorrect_answers": ["Tom Hanks", "Brad Pitt", "Matt Damon"]
+  },
+  {
+    "id": 277,
+    "category": "espectaculo",
+    "question": "¿Quién es el director de la película 'The Dark Knight'?",
+    "correct_answer": "Christopher Nolan",
+    "incorrect_answers": ["Tim Burton", "Zack Snyder", "Joss Whedon"]
+  },
+  {
+    "id": 278,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más grande del mundo?",
+    "correct_answer": "La ballena azul",
+    "incorrect_answers": ["Elefante africano", "Girafa", "Tiburón ballena"]
+  },
+  {
+    "id": 279,
+    "category": "naturaleza",
+    "question": "¿Cuál es la montaña más alta fuera del sistema solar?",
+    "correct_answer": "El Monte Olimpo en Marte",
+    "incorrect_answers": [
+      "El Monte Everest en la Tierra",
+      "El Monte Kilimanjaro en la Tierra",
+      "El Monte Mauna Kea en Hawái"
+    ]
+  },
+  {
+    "id": 280,
+    "category": "naturaleza",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "correct_answer": "El río Amazonas",
+    "incorrect_answers": ["El río Nilo", "El río Yangtsé", "El río Mississippi"]
+  },
+  {
+    "id": 281,
+    "category": "naturaleza",
+    "question": "¿Cuál es la flor más grande del mundo?",
+    "correct_answer": "La flor de la Rafflesia",
+    "incorrect_answers": ["El girasol", "La orquídea", "La rosa"]
+  },
+  {
+    "id": 282,
+    "category": "naturaleza",
+    "question": "¿Qué animal es conocido como el 'rey de la selva'?",
+    "correct_answer": "El león",
+    "incorrect_answers": ["El tigre", "El oso", "La pantera"]
+  },
+  {
+    "id": 283,
+    "category": "naturaleza",
+    "question": "¿Qué tipo de animal es el ornitorrinco?",
+    "correct_answer": "Un mamífero monotremado",
+    "incorrect_answers": ["Un reptil", "Un anfibio", "Un marsupial"]
+  },
+  {
+    "id": 284,
+    "category": "naturaleza",
+    "question": "¿Qué porcentaje de la Tierra está cubierto por agua?",
+    "correct_answer": "Aproximadamente el 71%",
+    "incorrect_answers": [
+      "Aproximadamente el 50%",
+      "Aproximadamente el 85%",
+      "Aproximadamente el 30%"
+    ]
+  },
+  {
+    "id": 285,
+    "category": "naturaleza",
+    "question": "¿Cuál es el animal más rápido del mundo?",
+    "correct_answer": "El guepardo",
+    "incorrect_answers": ["El halcón peregrino", "El avestruz", "El leopardo"]
   }
 ]
