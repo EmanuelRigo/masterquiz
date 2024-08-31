@@ -13,28 +13,29 @@ import { contexto } from "./CustomProvider";
 
 function CategoryPage() {
   const { boardGame } = useContext(contexto);
+  let [activate, setActivate] = useState(false);
+  const [mix, setMix] = useState(false);
+  let [indexQuestion, setIndexQuestion] = useState(0);
+  const [questionShuffle, setquestionShuffle] = useState();
 
   const shuffleArray = (array) => {
     const newArray = array.sort(() => Math.random() - 0.5);
     return newArray.slice(0, boardGame ? 15 : 5);
   };
 
-  let [activate, setActivate] = useState(false);
-
   const { category } = useParams();
   const [questionFiltered, SetQuestionFiltered] = useState(
     data.filter((question) => question.category === category)
   );
 
-  const [indexQuestion, setIndexQuestion] = useState(0);
-
   useEffect(() => {
-    const newQuestions = shuffleArray(questionFiltered);
-    SetQuestionFiltered(newQuestions);
+    setquestionShuffle(shuffleArray(questionFiltered));
+    console.log(questionFiltered);
+    console.log(questionShuffle);
     if (boardGame) {
       setActivate(true);
     }
-  }, []);
+  }, [mix]);
 
   let componente;
 
@@ -61,9 +62,10 @@ function CategoryPage() {
 
   return activate ? (
     <Question
-      filteredQuestion={questionFiltered[indexQuestion]}
+      filteredQuestion={questionShuffle[indexQuestion]}
       setIndexQuestion={setIndexQuestion}
       indexQuestion={indexQuestion}
+      questionShuffle={questionShuffle}
       questionFiltered={questionFiltered}
       icon={componente}
       setActivate={setActivate}
@@ -83,6 +85,7 @@ function CategoryPage() {
         <Button
           className="btn-warning w-100 mb-3"
           onClick={() => {
+            setMix(!mix);
             setActivate(true);
           }}
         >

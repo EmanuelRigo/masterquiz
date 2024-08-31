@@ -15,7 +15,7 @@ function Question({
   filteredQuestion,
   setIndexQuestion,
   indexQuestion,
-  questionFiltered,
+  questionShuffle,
   icon,
   setActivate,
   shuffleArray,
@@ -151,7 +151,7 @@ function Question({
     <>
       {activeResult ? (
         <Results
-          questionFiltered={questionFiltered}
+          questionShuffle={questionShuffle}
           score={score}
           onReset={onReset}
         ></Results>
@@ -166,7 +166,7 @@ function Question({
               ""
             ) : (
               <span className="text-light">
-                {indexQuestion + 1} / {questionFiltered.length}
+                {indexQuestion + 1} / {questionShuffle.length}
               </span>
             )}
           </Col>
@@ -221,7 +221,7 @@ function Question({
 
           <Col>
             {boardGame ? (
-              indexQuestion + 1 === questionFiltered.length ? (
+              indexQuestion + 1 === questionShuffle.length ? (
                 <Link
                   to="/categorylist"
                   className="btn btn-warning rounded p-2 text-dark w-100"
@@ -244,7 +244,7 @@ function Question({
                   </Link>
                 </>
               )
-            ) : indexQuestion + 1 === questionFiltered.length ? (
+            ) : indexQuestion + 1 === questionShuffle.length ? (
               <>
                 <button
                   onClick={() => {
@@ -278,7 +278,7 @@ function Question({
                 </button>
               </>
             )}
-            {/*  {indexQuestion + 1 === questionFiltered.length ? (
+            {/*  {indexQuestion + 1 === questionShuffle.length ? (
               <button
                 onClick={() => {
                   setAnsewered(false);
