@@ -10,7 +10,7 @@ import { IoGameControllerOutline } from "react-icons/io5";
 
 function CategoryList() {
   return (
-    <Row className="row-cols-2 row-cols-md-3">
+    <Row className="row-cols-2 row-cols-md-3 container_category">
       <Col className="d-flex justify-content-center py-3 ">
         <CategoryCard
           className="btn btn-warning"
