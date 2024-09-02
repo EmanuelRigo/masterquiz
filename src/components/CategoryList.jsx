@@ -15,25 +15,25 @@ function CategoryList() {
         <CategoryCard
           className="btn btn-warning"
           icon={<MdOutlineScience />}
-          category={"ciencia"}
+          category={"Ciencia"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">
         <CategoryCard
           icon={<TbMovie />}
-          category={"espectaculo"}
+          category={"Espectaculo"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">
         <CategoryCard
           icon={<BiWorld />}
-          category={"historia-y-geografia"}
+          category={"Historia-y-Geografia"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">
         <CategoryCard
           icon={<MdOutlineSportsFootball />}
-          category={"deporte"}
+          category={"Deporte"}
         ></CategoryCard>
       </Col>
       <Col className="d-flex justify-content-center py-3">

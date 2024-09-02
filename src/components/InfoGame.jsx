@@ -8,14 +8,14 @@ function InfoGame() {
   return (
     <Card className="col-md-6 text-center">
       <Card.Body>
-        <Card.Title>{boardGame ? "juego de mesa" : "un jugador "}</Card.Title>
+        <Card.Title>{boardGame ? "Juego de mesa" : "Un jugador "}</Card.Title>
         <Card.Text>
           {boardGame
-            ? "este juego es para jugar con amigos con un tablero de mesa"
-            : "este juego es de un jugador"}
+            ? "Este juego es para jugar con amigos con un tablero de mesa"
+            : "Este juego es de un jugador"}
         </Card.Text>
         <Link to="/categorylist" className="btn btn-warning w-50 p-2 m-1 w-100">
-          ok
+          Ok
         </Link>
         <Link
           to="/"
@@ -24,7 +24,7 @@ function InfoGame() {
           }}
           className="btn btn-warning w-50 p-2 m-1 w-100"
         >
-          volver
+          Volver
         </Link>
       </Card.Body>
     </Card>

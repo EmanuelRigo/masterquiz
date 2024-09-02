@@ -17,7 +17,7 @@ function HomePage() {
           }}
           className="btn btn-warning w-50 p-3"
         >
-          un jugador
+          Un Jugador
         </Link>
       </Col>
       <Col md={6} className="text-center  my-3">
@@ -28,7 +28,7 @@ function HomePage() {
           }}
           className="btn btn-warning w-50 p-3"
         >
-          juego de mesa
+          Juego de mesa
         </Link>
       </Col>
     </Row>
