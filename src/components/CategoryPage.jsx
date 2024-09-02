@@ -18,9 +18,26 @@ function CategoryPage() {
   let [indexQuestion, setIndexQuestion] = useState(0);
   const [questionShuffle, setquestionShuffle] = useState();
 
+  // const shuffleArray = (array) => {
+  //   const newArray = array.sort(() => Math.random() - 0.5);
+  //   return newArray.slice(0, boardGame ? 15 : 5);
+  // };
+
   const shuffleArray = (array) => {
-    const newArray = array.sort(() => Math.random() - 0.5);
-    return newArray.slice(0, boardGame ? 15 : 5);
+    const newArray = [...array];
+
+    // Fisher-Yates shuffle
+    for (let i = newArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+
+    // Eliminar duplicados y seleccionar los primeros únicos
+    const result = newArray
+      .filter((item, index) => newArray.indexOf(item) === index)
+      .slice(0, boardGame ? 15 : 5);
+
+    return result;
   };
 
   const { category } = useParams();
